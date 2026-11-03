@@ -1,0 +1,3046 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ and %lld more": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@，以及另外 %lld 种"
+          }
+        }
+      }
+    },
+    "%@ left": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "剩余 %@"
+          }
+        }
+      }
+    },
+    "%@ removed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "移除了%@"
+          }
+        }
+      }
+    },
+    "%lld Shared": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已共享 %lld 项"
+          }
+        }
+      }
+    },
+    "%lld beats": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 次心跳"
+          }
+        }
+      }
+    },
+    "%lld frequencies": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 个频率"
+          }
+        }
+      }
+    },
+    "%lld locations": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 个位置"
+          }
+        }
+      }
+    },
+    "%lld more types": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "以及其他 %lld 种类型"
+          }
+        }
+      }
+    },
+    "%lld of %lld samples deleted in Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已在 Apple 健康中删除 %lld 个样本（共 %lld 个）"
+          }
+        }
+      }
+    },
+    "%lld samples": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 条样本"
+          }
+        }
+      }
+    },
+    "%lld samples on the server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器上有 %lld 条样本"
+          }
+        }
+      }
+    },
+    "%lld saved, %lld not saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已存入 %lld 条，%lld 条未能存入"
+          }
+        }
+      }
+    },
+    "%lld values": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 个数值"
+          }
+        }
+      }
+    },
+    "%lld waiting to be saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 条等待存入"
+          }
+        }
+      }
+    },
+    "API Keys": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API 密钥"
+          }
+        }
+      }
+    },
+    "About %lld min": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "约 %lld 分钟"
+          }
+        }
+      }
+    },
+    "Access": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "权限"
+          }
+        }
+      }
+    },
+    "Access to Apple Health is off": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已关闭对 Apple 健康的访问"
+          }
+        }
+      }
+    },
+    "Action": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "操作"
+          }
+        }
+      }
+    },
+    "Activity": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "活动记录"
+          }
+        }
+      }
+    },
+    "Added": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已存入"
+          }
+        }
+      }
+    },
+    "After pairing, an iPhone previously paired with this server stops syncing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配对后，此前与该服务器配对的 iPhone 将停止同步。"
+          }
+        }
+      }
+    },
+    "After pairing, the data on your server appears here.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "与服务器配对后，服务器上的数据将显示在此处。"
+          }
+        }
+      }
+    },
+    "All": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部"
+          }
+        }
+      }
+    },
+    "All Levels": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有级别"
+          }
+        }
+      }
+    },
+    "All Types": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有类型"
+          }
+        }
+      }
+    },
+    "All of this iPhone's Apple Health history will be uploaded again. The server ignores duplicates.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将重新上传此 iPhone 的全部 Apple 健康历史数据，服务器会忽略重复数据。"
+          }
+        }
+      }
+    },
+    "All samples, statistics and write requests on the server will be deleted, and this iPhone's Apple Health history will be uploaded again. Keys are kept. Apple Health on this iPhone is not affected.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器上的所有样本、统计数据和写入请求将被删除，随后重新上传此 iPhone 的 Apple 健康历史数据。密钥将保留。此 iPhone 上的 Apple 健康数据不受影响。"
+          }
+        }
+      }
+    },
+    "Allow": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许"
+          }
+        }
+      }
+    },
+    "Allow Access to More Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许访问更多数据"
+          }
+        }
+      }
+    },
+    "Allow Access…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许访问…"
+          }
+        }
+      }
+    },
+    "Allow access to Apple Health to start": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许访问 Apple 健康后开始同步"
+          }
+        }
+      }
+    },
+    "Another iPhone was paired with the server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "另一台 iPhone 已与服务器配对"
+          }
+        }
+      }
+    },
+    "Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 健康"
+          }
+        }
+      }
+    },
+    "Apple Health Unavailable": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 健康不可用"
+          }
+        }
+      }
+    },
+    "Apple Health data is sent only to the server you pair with.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 健康数据仅会发送至与你配对的服务器。"
+          }
+        }
+      }
+    },
+    "Apple Health has kinds of data Rendu hasn't asked to access yet.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apple 健康中有任督尚未请求访问的数据类型。"
+          }
+        }
+      }
+    },
+    "Archived": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已停用"
+          }
+        }
+      }
+    },
+    "Background App Refresh": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "后台 App 刷新"
+          }
+        }
+      }
+    },
+    "Background App Refresh Is Off": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“后台 App 刷新”已关闭"
+          }
+        }
+      }
+    },
+    "Background Processing": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "后台处理"
+          }
+        }
+      }
+    },
+    "Browse": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "浏览"
+          }
+        }
+      }
+    },
+    "Bundle ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bundle ID"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        }
+      }
+    },
+    "Change Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更改服务器"
+          }
+        }
+      }
+    },
+    "Change Shared Medications…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更改共享的药物…"
+          }
+        }
+      }
+    },
+    "Change Shared Prescriptions…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更改共享的处方…"
+          }
+        }
+      }
+    },
+    "Change what Rendu may read and write in Apple Health, under the apps that access your data.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Apple 健康中，从可访问你数据的 App 里找到任督，更改它可以读取和写入的内容。"
+          }
+        }
+      }
+    },
+    "Characteristics": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "个人特征"
+          }
+        }
+      }
+    },
+    "Checking": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查"
+          }
+        }
+      }
+    },
+    "Checking Apple Health for new data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查 Apple 健康中的新数据"
+          }
+        }
+      }
+    },
+    "Checking for new data…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查新数据…"
+          }
+        }
+      }
+    },
+    "Checking…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在检查…"
+          }
+        }
+      }
+    },
+    "Clear": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清除"
+          }
+        }
+      }
+    },
+    "Clear Server Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "清空服务器数据"
+          }
+        }
+      }
+    },
+    "Clear all data on the server?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要清空服务器上的所有数据吗？"
+          }
+        }
+      }
+    },
+    "Conflict": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "冲突"
+          }
+        }
+      }
+    },
+    "Connecting": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在连接"
+          }
+        }
+      }
+    },
+    "Contacts": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隐形眼镜"
+          }
+        }
+      }
+    },
+    "Continuing from the Server's Progress": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从服务器的同步进度继续"
+          }
+        }
+      }
+    },
+    "Copied": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已拷贝"
+          }
+        }
+      }
+    },
+    "Copied JSON": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已拷贝 JSON"
+          }
+        }
+      }
+    },
+    "Copied Type Identifier": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已拷贝类型标识符"
+          }
+        }
+      }
+    },
+    "Copied UUID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已拷贝 UUID"
+          }
+        }
+      }
+    },
+    "Copy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷贝"
+          }
+        }
+      }
+    },
+    "Copy JSON": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷贝 JSON"
+          }
+        }
+      }
+    },
+    "Copy Key": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷贝密钥"
+          }
+        }
+      }
+    },
+    "Copy Type Identifier": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷贝类型标识符"
+          }
+        }
+      }
+    },
+    "Copy UUID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "拷贝 UUID"
+          }
+        }
+      }
+    },
+    "Create": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "创建"
+          }
+        }
+      }
+    },
+    "Create API Key…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "创建 API 密钥…"
+          }
+        }
+      }
+    },
+    "Created": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "创建时间"
+          }
+        }
+      }
+    },
+    "Data Types": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "数据类型"
+          }
+        }
+      }
+    },
+    "Data appears here once this iPhone has uploaded it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此 iPhone 上传数据后会显示在这里。"
+          }
+        }
+      }
+    },
+    "Date Written": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写入时间"
+          }
+        }
+      }
+    },
+    "Delete": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除"
+          }
+        }
+      }
+    },
+    "Delete Key": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "删除密钥"
+          }
+        }
+      }
+    },
+    "Delete Requested": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已请求删除"
+          }
+        }
+      }
+    },
+    "Delete from Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从 Apple 健康中删除"
+          }
+        }
+      }
+    },
+    "Delete “%@” from Apple Health?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要从 Apple 健康中删除“%@”吗？"
+          }
+        }
+      }
+    },
+    "Delete “%@”?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要删除“%@”吗？"
+          }
+        }
+      }
+    },
+    "Deleted": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已删除"
+          }
+        }
+      }
+    },
+    "Deleted from Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已从 Apple 健康中删除"
+          }
+        }
+      }
+    },
+    "Deleted in Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已在 Apple 健康中删除"
+          }
+        }
+      }
+    },
+    "Deleting…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在删除…"
+          }
+        }
+      }
+    },
+    "Details": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "详细信息"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        }
+      }
+    },
+    "Edit": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "编辑"
+          }
+        }
+      }
+    },
+    "Enter the address of your server.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入服务器地址。"
+          }
+        }
+      }
+    },
+    "Entries of a type Rendu may not write aren't saved, and the server refuses them.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督不可写入的类型，写入不会存入，服务器也会拒绝。"
+          }
+        }
+      }
+    },
+    "Error": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "错误"
+          }
+        }
+      }
+    },
+    "Errors": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "错误"
+          }
+        }
+      }
+    },
+    "Event": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "事件"
+          }
+        }
+      }
+    },
+    "Export Logs": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "导出日志"
+          }
+        }
+      }
+    },
+    "Face ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "面容 ID"
+          }
+        }
+      }
+    },
+    "Failed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "失败"
+          }
+        }
+      }
+    },
+    "Firmware": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "固件"
+          }
+        }
+      }
+    },
+    "Forget This Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "忘记此服务器"
+          }
+        }
+      }
+    },
+    "Forget this server?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要忘记此服务器吗？"
+          }
+        }
+      }
+    },
+    "Found ^[%lld new sample](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发现 %lld 条新样本"
+          }
+        }
+      }
+    },
+    "Glasses": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "眼镜"
+          }
+        }
+      }
+    },
+    "Haptics": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "触感反馈"
+          }
+        }
+      }
+    },
+    "Hardware": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "硬件"
+          }
+        }
+      }
+    },
+    "Host": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "主机"
+          }
+        }
+      }
+    },
+    "In Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在 Apple 健康中"
+          }
+        }
+      }
+    },
+    "Info": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "信息"
+          }
+        }
+      }
+    },
+    "Issued %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开具于 %@"
+          }
+        }
+      }
+    },
+    "Keep Logs": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保留日志"
+          }
+        }
+      }
+    },
+    "Last Upload": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最近上传"
+          }
+        }
+      }
+    },
+    "Last Used": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次使用"
+          }
+        }
+      }
+    },
+    "Last used %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次使用：%@"
+          }
+        }
+      }
+    },
+    "Less than a minute": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不到 1 分钟"
+          }
+        }
+      }
+    },
+    "Level": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "级别"
+          }
+        }
+      }
+    },
+    "Load Earlier Activity": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "载入更早的活动记录"
+          }
+        }
+      }
+    },
+    "Load Earlier Entries": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "载入更早的记录"
+          }
+        }
+      }
+    },
+    "Load More": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "加载更多"
+          }
+        }
+      }
+    },
+    "Local Identifier": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "本地标识符"
+          }
+        }
+      }
+    },
+    "Logs": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日志"
+          }
+        }
+      }
+    },
+    "Logs use %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "日志占用 %@"
+          }
+        }
+      }
+    },
+    "Manufacturer": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "制造商"
+          }
+        }
+      }
+    },
+    "Medications": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用药"
+          }
+        }
+      }
+    },
+    "Message": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "消息"
+          }
+        }
+      }
+    },
+    "Model": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "型号"
+          }
+        }
+      }
+    },
+    "More": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更多"
+          }
+        }
+      }
+    },
+    "My Personal AI": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我的个人 AI"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名称"
+          }
+        }
+      }
+    },
+    "Never": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从未"
+          }
+        }
+      }
+    },
+    "Never used": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从未使用"
+          }
+        }
+      }
+    },
+    "New data is kept on this iPhone": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新数据暂存在此 iPhone 上"
+          }
+        }
+      }
+    },
+    "Next": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "下一步"
+          }
+        }
+      }
+    },
+    "No Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无数据"
+          }
+        }
+      }
+    },
+    "No Entries": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无记录"
+          }
+        }
+      }
+    },
+    "No Longer Paired": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配对已失效"
+          }
+        }
+      }
+    },
+    "No Rendu server was found at this address.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未在此地址找到任督服务器。"
+          }
+        }
+      }
+    },
+    "No activity yet.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚无活动记录。"
+          }
+        }
+      }
+    },
+    "No longer in Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已不在 Apple 健康中"
+          }
+        }
+      }
+    },
+    "No medications are shared.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有共享任何药物。"
+          }
+        }
+      }
+    },
+    "No prescriptions are shared.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "没有共享任何处方。"
+          }
+        }
+      }
+    },
+    "Not Asked Yet": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "尚未请求"
+          }
+        }
+      }
+    },
+    "Not Paired": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未配对"
+          }
+        }
+      }
+    },
+    "Not Saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未能存入"
+          }
+        }
+      }
+    },
+    "Not Saved to Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未能存入 Apple 健康"
+          }
+        }
+      }
+    },
+    "Not Syncing": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "未在同步"
+          }
+        }
+      }
+    },
+    "Note": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "备注"
+          }
+        }
+      }
+    },
+    "Notifications": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通知"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好"
+          }
+        }
+      }
+    },
+    "OS Version": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "系统版本"
+          }
+        }
+      }
+    },
+    "Online": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在线"
+          }
+        }
+      }
+    },
+    "Open Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开 Apple 健康"
+          }
+        }
+      }
+    },
+    "Open Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开“健康”"
+          }
+        }
+      }
+    },
+    "Open Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开“设置”"
+          }
+        }
+      }
+    },
+    "Optic ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Optic ID"
+          }
+        }
+      }
+    },
+    "Owner": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "所有者"
+          }
+        }
+      }
+    },
+    "Pair Again…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新配对…"
+          }
+        }
+      }
+    },
+    "Pair with Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "与服务器配对"
+          }
+        }
+      }
+    },
+    "Pair with Server…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "与服务器配对…"
+          }
+        }
+      }
+    },
+    "Pair with Your Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "与你的服务器配对"
+          }
+        }
+      }
+    },
+    "Paired": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已配对"
+          }
+        }
+      }
+    },
+    "Pairing Code": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配对码"
+          }
+        }
+      }
+    },
+    "Pair…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "配对…"
+          }
+        }
+      }
+    },
+    "Partly Deleted in Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "部分已在 Apple 健康中删除"
+          }
+        }
+      }
+    },
+    "Partly Off": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "部分已关闭"
+          }
+        }
+      }
+    },
+    "Passcode": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "密码"
+          }
+        }
+      }
+    },
+    "Pause": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "暂停"
+          }
+        }
+      }
+    },
+    "Paused": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已暂停"
+          }
+        }
+      }
+    },
+    "Pending Entries": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "待存入的记录"
+          }
+        }
+      }
+    },
+    "Product Type": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "产品类型"
+          }
+        }
+      }
+    },
+    "Programs using this key will lose access immediately.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用此密钥的程序将立即失去访问权限。"
+          }
+        }
+      }
+    },
+    "Raw Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原始数据"
+          }
+        }
+      }
+    },
+    "Re-import": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新导入"
+          }
+        }
+      }
+    },
+    "Re-import All History": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重新导入全部历史数据"
+          }
+        }
+      }
+    },
+    "Re-import all history?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要重新导入全部历史数据吗？"
+          }
+        }
+      }
+    },
+    "Read": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取"
+          }
+        }
+      }
+    },
+    "Read & Write": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读与写"
+          }
+        }
+      }
+    },
+    "Read Only": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只读"
+          }
+        }
+      }
+    },
+    "Read ^[%lld change](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取了 %lld 项更改"
+          }
+        }
+      }
+    },
+    "Read ^[%lld day](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取了 %lld 天"
+          }
+        }
+      }
+    },
+    "Read ^[%lld sample](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取了 %lld 条样本"
+          }
+        }
+      }
+    },
+    "Read ^[%lld statistic](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取了 %lld 条统计数据"
+          }
+        }
+      }
+    },
+    "Read ^[%lld write](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取了 %lld 条写入"
+          }
+        }
+      }
+    },
+    "Reading Looks Off": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "读取似乎已关闭"
+          }
+        }
+      }
+    },
+    "Reason": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "原因"
+          }
+        }
+      }
+    },
+    "Recent": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "动态"
+          }
+        }
+      }
+    },
+    "Refused (HTTP %lld)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "被拒绝（HTTP %lld）"
+          }
+        }
+      }
+    },
+    "Reinstall Rendu from Xcode to continue syncing. Your data will be kept.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请使用 Xcode 重新安装任督以继续同步，数据将会保留。"
+          }
+        }
+      }
+    },
+    "Related Records": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关联记录"
+          }
+        }
+      }
+    },
+    "Rendu Expires Tomorrow": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督将于明天到期"
+          }
+        }
+      }
+    },
+    "Rendu can sync only while it is open.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督只能在打开时同步。"
+          }
+        }
+      }
+    },
+    "Rendu deletes it from Apple Health and records the deletion.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督会将它从 Apple 健康中删除，并记录这次删除。"
+          }
+        }
+      }
+    },
+    "Rendu is unable to connect to your server: %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督无法连接你的服务器：%@"
+          }
+        }
+      }
+    },
+    "Rendu uploads your Apple Health data to your own server. Other programs read it through the API, and entries they submit are saved to Apple Health.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督会将你的 Apple 健康数据上传到你自己的服务器。其他程序可通过 API 读取这些数据，它们提交的记录会存入 Apple 健康。"
+          }
+        }
+      }
+    },
+    "Require %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "需要%@"
+          }
+        }
+      }
+    },
+    "Requires %@ to open the server and its API keys, or to pair.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开服务器及其 API 密钥或进行配对前需要验证%@。"
+          }
+        }
+      }
+    },
+    "Result": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "结果"
+          }
+        }
+      }
+    },
+    "Resume": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "继续"
+          }
+        }
+      }
+    },
+    "Resumes at %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "将于 %@ 恢复"
+          }
+        }
+      }
+    },
+    "Retrying %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@重试"
+          }
+        }
+      }
+    },
+    "Retrying in %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@后重试"
+          }
+        }
+      }
+    },
+    "Revoked": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已撤销"
+          }
+        }
+      }
+    },
+    "Run on the Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在服务器上运行"
+          }
+        }
+      }
+    },
+    "Run the pairing command shown in Rendu on the server.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在服务器上运行任督显示的配对命令。"
+          }
+        }
+      }
+    },
+    "Sample Date": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "样本时间"
+          }
+        }
+      }
+    },
+    "Samples": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "样本"
+          }
+        }
+      }
+    },
+    "Saved to Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已存入 Apple 健康"
+          }
+        }
+      }
+    },
+    "Saving to Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在存入 Apple 健康"
+          }
+        }
+      }
+    },
+    "Score %lld": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "得分 %lld"
+          }
+        }
+      }
+    },
+    "Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器"
+          }
+        }
+      }
+    },
+    "Server Address": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器地址"
+          }
+        }
+      }
+    },
+    "Server Data Cleared": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器数据已清空"
+          }
+        }
+      }
+    },
+    "Server Forgotten": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已忘记服务器"
+          }
+        }
+      }
+    },
+    "Server Status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器状态"
+          }
+        }
+      }
+    },
+    "Server Version": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器版本"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
+          }
+        }
+      }
+    },
+    "Shared with Rendu": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已与任督共享"
+          }
+        }
+      }
+    },
+    "Show": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "显示"
+          }
+        }
+      }
+    },
+    "Show All": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "显示全部"
+          }
+        }
+      }
+    },
+    "Signature Expires": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "签名到期"
+          }
+        }
+      }
+    },
+    "Signature Expires %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "签名将于%@到期"
+          }
+        }
+      }
+    },
+    "Signature Expiring": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "签名即将到期"
+          }
+        }
+      }
+    },
+    "Since %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@起"
+          }
+        }
+      }
+    },
+    "Since Then": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "后续"
+          }
+        }
+      }
+    },
+    "Software": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "软件"
+          }
+        }
+      }
+    },
+    "Sort By": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "排序方式"
+          }
+        }
+      }
+    },
+    "Status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "状态"
+          }
+        }
+      }
+    },
+    "Submitted By": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提交者"
+          }
+        }
+      }
+    },
+    "Submitted an entry": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "提交了 1 条记录"
+          }
+        }
+      }
+    },
+    "Summary": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "摘要"
+          }
+        }
+      }
+    },
+    "Sync Failures": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步失败"
+          }
+        }
+      }
+    },
+    "Sync Identifier": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步标识符"
+          }
+        }
+      }
+    },
+    "Sync Is Failing": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步持续失败"
+          }
+        }
+      }
+    },
+    "Sync Now": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "立即同步"
+          }
+        }
+      }
+    },
+    "Sync Paused": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "同步已暂停"
+          }
+        }
+      }
+    },
+    "Synced %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%@同步"
+          }
+        }
+      }
+    },
+    "Synced just now": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "刚刚同步"
+          }
+        }
+      }
+    },
+    "Syncing Apple Health Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在同步 Apple 健康数据"
+          }
+        }
+      }
+    },
+    "The code on the server doesn't match. Run the command above again.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器上的配对码与此不一致。请重新运行上方的命令。"
+          }
+        }
+      }
+    },
+    "The server has none of this iPhone's data.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器上没有此 iPhone 的数据。"
+          }
+        }
+      }
+    },
+    "The server's progress differs for ^[%lld type](inflect: true).": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器上有 %lld 种类型的同步进度与此 iPhone 不同。"
+          }
+        }
+      }
+    },
+    "There is no data in this category on your server.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "服务器上没有此类别的数据。"
+          }
+        }
+      }
+    },
+    "This device doesn't support Apple Health.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此设备不支持 Apple 健康。"
+          }
+        }
+      }
+    },
+    "This iPhone": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此 iPhone"
+          }
+        }
+      }
+    },
+    "This iPhone is no longer paired because another iPhone was paired with the server. Pair again to continue syncing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由于另一台 iPhone 已与服务器配对，此 iPhone 的配对已失效。请重新配对以继续同步。"
+          }
+        }
+      }
+    },
+    "This iPhone will delete its key and stop syncing. Data on the server is kept. Pair again to resume syncing.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此 iPhone 将删除其密钥并停止同步，服务器上的数据会保留。重新配对后可恢复同步。"
+          }
+        }
+      }
+    },
+    "This key will not be shown again. Copy it now.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此密钥不会再次显示，请立即拷贝。"
+          }
+        }
+      }
+    },
+    "This server doesn't support pairing. Update the server first.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此服务器不支持配对，请先更新服务器。"
+          }
+        }
+      }
+    },
+    "Time": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "时间"
+          }
+        }
+      }
+    },
+    "Today": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "今天"
+          }
+        }
+      }
+    },
+    "Touch ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "触控 ID"
+          }
+        }
+      }
+    },
+    "Try Again": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重试"
+          }
+        }
+      }
+    },
+    "Turn off the lock for the server settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关闭服务器设置的锁定。"
+          }
+        }
+      }
+    },
+    "Turn on the lock for the server settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开启服务器设置的锁定。"
+          }
+        }
+      }
+    },
+    "Types": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "类型"
+          }
+        }
+      }
+    },
+    "Types with Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有数据的类型"
+          }
+        }
+      }
+    },
+    "UDI Device Identifier": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UDI 设备标识符"
+          }
+        }
+      }
+    },
+    "Unable to Connect to Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法连接服务器"
+          }
+        }
+      }
+    },
+    "Unable to Delete": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法删除"
+          }
+        }
+      }
+    },
+    "Unable to connect to the server.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法连接服务器。"
+          }
+        }
+      }
+    },
+    "Unable to connect to the server. Retrying…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法连接服务器，正在重试…"
+          }
+        }
+      }
+    },
+    "Unable to connect to the server. Showing data as of %@.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法连接服务器。显示的是截至 %@ 的数据。"
+          }
+        }
+      }
+    },
+    "Unable to connect to this server. Check the address and make sure the server is running.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法连接到此服务器。请检查地址，并确认服务器正在运行。"
+          }
+        }
+      }
+    },
+    "Unlock the server settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁服务器设置。"
+          }
+        }
+      }
+    },
+    "Unreachable": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法连接"
+          }
+        }
+      }
+    },
+    "Until %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "截至 %@"
+          }
+        }
+      }
+    },
+    "Up to %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "最多 %@"
+          }
+        }
+      }
+    },
+    "Up to Date": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已是最新"
+          }
+        }
+      }
+    },
+    "Updated": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已修改"
+          }
+        }
+      }
+    },
+    "Upload Failed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上传失败"
+          }
+        }
+      }
+    },
+    "Uploaded": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上传"
+          }
+        }
+      }
+    },
+    "Uploaded %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上传 %@ 条"
+          }
+        }
+      }
+    },
+    "Uploaded ^[%lld day](inflect: true) of Activity rings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上传 %lld 天的活动圆环"
+          }
+        }
+      }
+    },
+    "Uploaded ^[%lld sample](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上传 %lld 条样本"
+          }
+        }
+      }
+    },
+    "Uploaded ^[%lld statistic](inflect: true)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上传 %lld 条统计数据"
+          }
+        }
+      }
+    },
+    "Uploaded characteristics": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上传个人特征"
+          }
+        }
+      }
+    },
+    "Uploading": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在上传"
+          }
+        }
+      }
+    },
+    "Uploading All Data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在上传全部数据"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
+          }
+        }
+      }
+    },
+    "Vision Prescriptions": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "验光处方"
+          }
+        }
+      }
+    },
+    "Waiting for Apple Health data": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "等待 Apple 健康数据"
+          }
+        }
+      }
+    },
+    "Waiting for Server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "等待服务器"
+          }
+        }
+      }
+    },
+    "Waiting for the server to confirm…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "正在等待服务器确认…"
+          }
+        }
+      }
+    },
+    "Waiting to Be Saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "等待存入"
+          }
+        }
+      }
+    },
+    "Waiting to Retry": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "等待重试"
+          }
+        }
+      }
+    },
+    "Warning": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "警告"
+          }
+        }
+      }
+    },
+    "Warnings and Errors": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "警告和错误"
+          }
+        }
+      }
+    },
+    "Woken by Apple Health": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由 Apple 健康唤醒"
+          }
+        }
+      }
+    },
+    "Write Access": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写入权限"
+          }
+        }
+      }
+    },
+    "Write History": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写入记录"
+          }
+        }
+      }
+    },
+    "Write ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写入请求 ID"
+          }
+        }
+      }
+    },
+    "Write Status": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写入状态"
+          }
+        }
+      }
+    },
+    "Writing Allowed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "允许写入"
+          }
+        }
+      }
+    },
+    "Writing Off": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已关闭写入"
+          }
+        }
+      }
+    },
+    "Written": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已存入"
+          }
+        }
+      }
+    },
+    "Written %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "写入于 %@"
+          }
+        }
+      }
+    },
+    "Yesterday": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "昨天"
+          }
+        }
+      }
+    },
+    "^[%lld entry](inflect: true) from the server": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "来自服务器的 %lld 条记录"
+          }
+        }
+      }
+    },
+    "^[%lld entry](inflect: true) not saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 条未能存入"
+          }
+        }
+      }
+    },
+    "^[%lld entry](inflect: true) saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已存入 %lld 条记录"
+          }
+        }
+      }
+    },
+    "^[%lld sample](inflect: true) changed": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 个样本有变化"
+          }
+        }
+      }
+    },
+    "entries": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "条"
+          }
+        }
+      }
+    },
+    "entry": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "条"
+          }
+        }
+      }
+    },
+    "iOS didn't show its sheet. What Rendu may read can also be changed in the Health app, under the apps that access your data.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS 没有显示选择界面。也可以在“健康”App 中，从可访问你数据的 App 里找到任督进行更改。"
+          }
+        }
+      }
+    },
+    "iOS doesn't tell apps what they may read: with reading off, an app sees only what it saved itself. These are types Rendu read from Apple Watch or other apps before and now gets none of — reading was most likely turned off, or that data was deleted.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS 不告诉 App 可以读取哪些数据：关闭读取后，App 只能看到自己存入的数据。这些类型任督以前从 Apple Watch 或其他 App 读到过数据，现在一条也读不到，多半是关闭了读取，也可能是这些数据被删除了。"
+          }
+        }
+      }
+    },
+    "item": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "条"
+          }
+        }
+      }
+    },
+    "items": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "条"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

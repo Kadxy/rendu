@@ -1,0 +1,7 @@
+# Caddy obtains and renews the TLS certificate automatically.
+rendu.example.com {
+	# Compresses responses only; the app's gzip request bodies pass through
+	# untouched for rendu-server to decode.
+	encode zstd gzip
+	reverse_proxy rendu:8787
+}

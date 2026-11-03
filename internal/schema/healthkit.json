@@ -1,0 +1,4796 @@
+{
+ "enums": {
+  "HKActivityMoveMode": {
+   "available": "14.0",
+   "cases": [
+    {
+     "doc": "User's move ring is updated from Active Energy Burned",
+     "name": "HKActivityMoveModeActiveEnergy",
+     "short": "activeEnergy",
+     "value": 1
+    },
+    {
+     "doc": "User's move ring is updated from Apple Move Time",
+     "name": "HKActivityMoveModeAppleMoveTime",
+     "short": "appleMoveTime",
+     "value": 2
+    }
+   ],
+   "doc": "This enumerated type is used to represent the activity mode for the user's move ring.",
+   "options": false
+  },
+  "HKAppleECGAlgorithmVersion": {
+   "available": "14.0",
+   "cases": [
+    {
+     "doc": "Apple Watch used a version 1 algorithm to generate this ECG.",
+     "name": "HKAppleECGAlgorithmVersion1",
+     "short": "version1",
+     "value": 1
+    },
+    {
+     "available": "14.3",
+     "doc": "Apple Watch used a version 2 algorithm to generate this ECG.",
+     "name": "HKAppleECGAlgorithmVersion2",
+     "short": "version2",
+     "value": 2
+    }
+   ],
+   "doc": "Indicates which algorithm version number was used by the ECG app on Apple Watch.",
+   "options": false
+  },
+  "HKAppleSleepingBreathingDisturbancesClassification": {
+   "available": "18.0",
+   "cases": [
+    {
+     "doc": "BD level is not elevated",
+     "name": "HKAppleSleepingBreathingDisturbancesClassificationNotElevated",
+     "short": "notElevated",
+     "value": 0
+    },
+    {
+     "doc": "BD level is elevated",
+     "name": "HKAppleSleepingBreathingDisturbancesClassificationElevated",
+     "short": "elevated",
+     "value": 1
+    }
+   ],
+   "doc": "This enumerated type is used to represent a classification of the user's breathing disturbances",
+   "options": false
+  },
+  "HKAppleWalkingSteadinessClassification": {
+   "available": "15.0",
+   "cases": [
+    {
+     "doc": "Walking steadiness is OK.",
+     "name": "HKAppleWalkingSteadinessClassificationOK",
+     "short": "ok",
+     "value": 1
+    },
+    {
+     "doc": "Walking steadiness is Low.",
+     "name": "HKAppleWalkingSteadinessClassificationLow",
+     "short": "low",
+     "value": 2
+    },
+    {
+     "doc": "Walking steadiness is Very Low.",
+     "name": "HKAppleWalkingSteadinessClassificationVeryLow",
+     "short": "veryLow",
+     "value": 3
+    }
+   ],
+   "doc": "This enumerated type is used to represent the classification for the user's walking steadiness.",
+   "options": false
+  },
+  "HKAudiogramConductionType": {
+   "available": "18.1",
+   "cases": [
+    {
+     "name": "HKAudiogramConductionTypeAir",
+     "short": "air",
+     "value": 0
+    }
+   ],
+   "doc": "Represents the conduction type used for an HKAudiogramSensitivityTest",
+   "options": false
+  },
+  "HKAudiogramSensitivityTestSide": {
+   "available": "18.1",
+   "cases": [
+    {
+     "name": "HKAudiogramSensitivityTestSideLeft",
+     "short": "left",
+     "value": 0
+    },
+    {
+     "name": "HKAudiogramSensitivityTestSideRight",
+     "short": "right",
+     "value": 1
+    }
+   ],
+   "doc": "Represents the test side used for an HKAudiogramSensitivityTest",
+   "options": false
+  },
+  "HKAuthorizationRequestStatus": {
+   "available": "12.0",
+   "cases": [
+    {
+     "doc": "The authorization request status could not be determined because an error occurred.",
+     "name": "HKAuthorizationRequestStatusUnknown",
+     "short": "unknown",
+     "value": 0
+    },
+    {
+     "doc": "The application should request authorization from the user.",
+     "name": "HKAuthorizationRequestStatusShouldRequest",
+     "short": "shouldRequest",
+     "value": 1
+    },
+    {
+     "doc": "Requesting authorization from the user is unnecessary.",
+     "name": "HKAuthorizationRequestStatusUnnecessary",
+     "short": "unnecessary",
+     "value": 2
+    }
+   ],
+   "doc": "This enumerated type is used to indicate whether it is necessary to request authorization from the user.",
+   "options": false
+  },
+  "HKAuthorizationStatus": {
+   "available": "8.0",
+   "cases": [
+    {
+     "doc": "The user has not yet made a choice regarding whether this application may save objects of the specified type.",
+     "name": "HKAuthorizationStatusNotDetermined",
+     "short": "notDetermined",
+     "value": 0
+    },
+    {
+     "doc": "This application is not allowed to save objects of the specified type.",
+     "name": "HKAuthorizationStatusSharingDenied",
+     "short": "sharingDenied",
+     "value": 1
+    },
+    {
+     "doc": "This application is authorized to save objects of the specified type.",
+     "name": "HKAuthorizationStatusSharingAuthorized",
+     "short": "sharingAuthorized",
+     "value": 2
+    }
+   ],
+   "doc": "This enumerated type is used to indicate the currently granted authorization status for a specific HKObjectType.",
+   "options": false
+  },
+  "HKBiologicalSex": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKBiologicalSexNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "name": "HKBiologicalSexFemale",
+     "short": "female",
+     "value": 1
+    },
+    {
+     "name": "HKBiologicalSexMale",
+     "short": "male",
+     "value": 2
+    },
+    {
+     "available": "8.2",
+     "name": "HKBiologicalSexOther",
+     "short": "other",
+     "value": 3
+    }
+   ],
+   "doc": "This enumerated type is used to represent the biological sex of an individual.",
+   "options": false
+  },
+  "HKBloodGlucoseMealTime": {
+   "available": "11.0",
+   "cases": [
+    {
+     "doc": "A glucose value measured at the time just before a meal.",
+     "name": "HKBloodGlucoseMealTimePreprandial",
+     "short": "preprandial",
+     "value": 1
+    },
+    {
+     "doc": "A glucose value measured after a meal.",
+     "name": "HKBloodGlucoseMealTimePostprandial",
+     "short": "postprandial",
+     "value": 2
+    }
+   ],
+   "doc": "Indicates how your blood glucose reading relates to a meal.",
+   "options": false
+  },
+  "HKBloodType": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKBloodTypeNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "name": "HKBloodTypeAPositive",
+     "short": "aPositive",
+     "value": 1
+    },
+    {
+     "name": "HKBloodTypeANegative",
+     "short": "aNegative",
+     "value": 2
+    },
+    {
+     "name": "HKBloodTypeBPositive",
+     "short": "bPositive",
+     "value": 3
+    },
+    {
+     "name": "HKBloodTypeBNegative",
+     "short": "bNegative",
+     "value": 4
+    },
+    {
+     "name": "HKBloodTypeABPositive",
+     "short": "abPositive",
+     "value": 5
+    },
+    {
+     "name": "HKBloodTypeABNegative",
+     "short": "abNegative",
+     "value": 6
+    },
+    {
+     "name": "HKBloodTypeOPositive",
+     "short": "oPositive",
+     "value": 7
+    },
+    {
+     "name": "HKBloodTypeONegative",
+     "short": "oNegative",
+     "value": 8
+    }
+   ],
+   "doc": "This enumerated type is used to represent the blood type of an individual.",
+   "options": false
+  },
+  "HKBodyTemperatureSensorLocation": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKBodyTemperatureSensorLocationOther",
+     "short": "other",
+     "value": 0
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationArmpit",
+     "short": "armpit",
+     "value": 1
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationBody",
+     "short": "body",
+     "value": 2
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationEar",
+     "short": "ear",
+     "value": 3
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationFinger",
+     "short": "finger",
+     "value": 4
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationGastroIntestinal",
+     "short": "gastroIntestinal",
+     "value": 5
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationMouth",
+     "short": "mouth",
+     "value": 6
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationRectum",
+     "short": "rectum",
+     "value": 7
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationToe",
+     "short": "toe",
+     "value": 8
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationEarDrum",
+     "short": "earDrum",
+     "value": 9
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationTemporalArtery",
+     "short": "temporalArtery",
+     "value": 10
+    },
+    {
+     "name": "HKBodyTemperatureSensorLocationForehead",
+     "short": "forehead",
+     "value": 11
+    }
+   ],
+   "options": false
+  },
+  "HKCategoryValue": {
+   "available": "9.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueNotApplicable",
+     "short": "notApplicable",
+     "value": 0
+    }
+   ],
+   "doc": "This category value is to be used for types which don't have a specific value defined.",
+   "options": false
+  },
+  "HKCategoryValueAppetiteChanges": {
+   "available": "13.6",
+   "cases": [
+    {
+     "name": "HKCategoryValueAppetiteChangesUnspecified",
+     "short": "unspecified",
+     "value": 0
+    },
+    {
+     "name": "HKCategoryValueAppetiteChangesNoChange",
+     "short": "noChange",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueAppetiteChangesDecreased",
+     "short": "decreased",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueAppetiteChangesIncreased",
+     "short": "increased",
+     "value": 3
+    }
+   ],
+   "doc": "Set of values to indicate the direction of appetite changes.",
+   "options": false
+  },
+  "HKCategoryValueAppleStandHour": {
+   "available": "9.0",
+   "cases": [
+    {
+     "doc": "The user stood up and moved a little for at least one minute during the sample.",
+     "name": "HKCategoryValueAppleStandHourStood",
+     "short": "stood",
+     "value": 0
+    },
+    {
+     "doc": "The user did not stand up and move a little for at least one continuous minute during the sample.",
+     "name": "HKCategoryValueAppleStandHourIdle",
+     "short": "idle",
+     "value": 1
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierAppleStandHour type.",
+   "options": false
+  },
+  "HKCategoryValueAppleWalkingSteadinessEvent": {
+   "available": "15.0",
+   "cases": [
+    {
+     "doc": "This constant defines Apple Walking Steadiness events associated with the user's walking steadiness being low.",
+     "name": "HKCategoryValueAppleWalkingSteadinessEventInitialLow",
+     "short": "initialLow",
+     "value": 1
+    },
+    {
+     "doc": "This constant defines Apple Walking Steadiness events associated with the user's walking steadiness being very low.",
+     "name": "HKCategoryValueAppleWalkingSteadinessEventInitialVeryLow",
+     "short": "initialVeryLow",
+     "value": 2
+    },
+    {
+     "doc": "This constant defines Apple Walking Steadiness events associated with the user's walking steadiness remaining low over a significant time period.",
+     "name": "HKCategoryValueAppleWalkingSteadinessEventRepeatLow",
+     "short": "repeatLow",
+     "value": 3
+    },
+    {
+     "doc": "This constant defines Apple Walking Steadiness events associated with the user's walking steadiness remaining very low over a significant time period.",
+     "name": "HKCategoryValueAppleWalkingSteadinessEventRepeatVeryLow",
+     "short": "repeatVeryLow",
+     "value": 4
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierAppleWalkingSteadinessEvent type.",
+   "options": false
+  },
+  "HKCategoryValueAudioExposureEvent": {
+   "available": "13.0",
+   "cases": [
+    {
+     "deprecated": true,
+     "name": "HKCategoryValueAudioExposureEventLoudEnvironment",
+     "short": "loudEnvironment",
+     "value": 1
+    }
+   ],
+   "deprecated": true,
+   "doc": "Specifies the kind of audio exposure event associated with the sample.",
+   "options": false,
+   "replacement": "HKCategoryValueEnvironmentalAudioExposureEvent"
+  },
+  "HKCategoryValueCervicalMucusQuality": {
+   "available": "9.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueCervicalMucusQualityDry",
+     "short": "dry",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueCervicalMucusQualitySticky",
+     "short": "sticky",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueCervicalMucusQualityCreamy",
+     "short": "creamy",
+     "value": 3
+    },
+    {
+     "name": "HKCategoryValueCervicalMucusQualityWatery",
+     "short": "watery",
+     "value": 4
+    },
+    {
+     "name": "HKCategoryValueCervicalMucusQualityEggWhite",
+     "short": "eggWhite",
+     "value": 5
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierCervicalMucusQuality type.\n\nThese cervical mucus quality values are ordered from least-fertile (Dry) to most-fertile (EggWhite).",
+   "options": false
+  },
+  "HKCategoryValueContraceptive": {
+   "available": "14.3",
+   "cases": [
+    {
+     "name": "HKCategoryValueContraceptiveUnspecified",
+     "short": "unspecified",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueContraceptiveImplant",
+     "short": "implant",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueContraceptiveInjection",
+     "short": "injection",
+     "value": 3
+    },
+    {
+     "name": "HKCategoryValueContraceptiveIntrauterineDevice",
+     "short": "intrauterineDevice",
+     "value": 4
+    },
+    {
+     "name": "HKCategoryValueContraceptiveIntravaginalRing",
+     "short": "intravaginalRing",
+     "value": 5
+    },
+    {
+     "name": "HKCategoryValueContraceptiveOral",
+     "short": "oral",
+     "value": 6
+    },
+    {
+     "name": "HKCategoryValueContraceptivePatch",
+     "short": "patch",
+     "value": 7
+    }
+   ],
+   "doc": "Set of values to indicate the type of contraceptive.",
+   "options": false
+  },
+  "HKCategoryValueEnvironmentalAudioExposureEvent": {
+   "available": "14.0",
+   "cases": [
+    {
+     "doc": "This constant defines environmental events associated with the user being exposed to a loud environment during a short timespan.",
+     "name": "HKCategoryValueEnvironmentalAudioExposureEventMomentaryLimit",
+     "short": "momentaryLimit",
+     "value": 1
+    }
+   ],
+   "doc": "Specifies the kind of environmental audio exposure event associated with the sample.",
+   "options": false
+  },
+  "HKCategoryValueHeadphoneAudioExposureEvent": {
+   "available": "14.2",
+   "cases": [
+    {
+     "doc": "This constant defines headphone events associated with the user being exposed to significant audio levels throught a seven-day period.",
+     "name": "HKCategoryValueHeadphoneAudioExposureEventSevenDayLimit",
+     "short": "sevenDayLimit",
+     "value": 1
+    }
+   ],
+   "doc": "Specifies the kind of headphone audio exposure event associated with the sample.",
+   "options": false
+  },
+  "HKCategoryValueLowCardioFitnessEvent": {
+   "available": "14.3",
+   "cases": [
+    {
+     "doc": "This constant defines an event where a VO2Max measurement was recorded that falls into the \"Low\" fitness classification",
+     "name": "HKCategoryValueLowCardioFitnessEventLowFitness",
+     "short": "lowFitness",
+     "value": 1
+    }
+   ],
+   "doc": "Specifies the type of cardio fitness event.",
+   "options": false
+  },
+  "HKCategoryValueMenopausalState": {
+   "available": "27.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueMenopausalStateMenopause",
+     "short": "menopause",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueMenopausalStatePerimenopause",
+     "short": "perimenopause",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueMenopausalStateNone",
+     "short": "none",
+     "value": 3
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierMenopausalState type.",
+   "options": false
+  },
+  "HKCategoryValueMenstrualFlow": {
+   "available": "9.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueMenstrualFlowUnspecified",
+     "short": "unspecified",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueMenstrualFlowLight",
+     "short": "light",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueMenstrualFlowMedium",
+     "short": "medium",
+     "value": 3
+    },
+    {
+     "name": "HKCategoryValueMenstrualFlowHeavy",
+     "short": "heavy",
+     "value": 4
+    },
+    {
+     "available": "12.0",
+     "deprecated": true,
+     "name": "HKCategoryValueMenstrualFlowNone",
+     "short": "none",
+     "value": 5
+    }
+   ],
+   "deprecated": true,
+   "doc": "Set of values to indicate the type of menstrual flow.",
+   "options": false,
+   "replacement": "HKCategoryValueVaginalBleeding"
+  },
+  "HKCategoryValueOvulationTestResult": {
+   "available": "9.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueOvulationTestResultNegative",
+     "short": "negative",
+     "value": 1
+    },
+    {
+     "available": "13.0",
+     "name": "HKCategoryValueOvulationTestResultLuteinizingHormoneSurge",
+     "short": "luteinizingHormoneSurge",
+     "value": 2
+    },
+    {
+     "deprecated": true,
+     "name": "HKCategoryValueOvulationTestResultPositive",
+     "short": "positive",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueOvulationTestResultIndeterminate",
+     "short": "indeterminate",
+     "value": 3
+    },
+    {
+     "available": "13.0",
+     "name": "HKCategoryValueOvulationTestResultEstrogenSurge",
+     "short": "estrogenSurge",
+     "value": 4
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierOvulationTestResult type.\n\nThis category value tracks the result of a home ovulation test that use surges in hormone levels to indicate fertility.",
+   "options": false
+  },
+  "HKCategoryValuePregnancyTestResult": {
+   "available": "15.0",
+   "cases": [
+    {
+     "name": "HKCategoryValuePregnancyTestResultNegative",
+     "short": "negative",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValuePregnancyTestResultPositive",
+     "short": "positive",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValuePregnancyTestResultIndeterminate",
+     "short": "indeterminate",
+     "value": 3
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierPregnancyTestResult type.\n\nThis category value tracks the result of a home pregnancy test that checks for presence of the human chorionic gonadotrophin (hCG) hormone in urine to confirm pregnancy.",
+   "options": false
+  },
+  "HKCategoryValuePresence": {
+   "available": "13.6",
+   "cases": [
+    {
+     "name": "HKCategoryValuePresencePresent",
+     "short": "present",
+     "value": 0
+    },
+    {
+     "name": "HKCategoryValuePresenceNotPresent",
+     "short": "notPresent",
+     "value": 1
+    }
+   ],
+   "doc": "Set of values to indicate whether a data type is present or not.",
+   "options": false
+  },
+  "HKCategoryValueProgesteroneTestResult": {
+   "available": "15.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueProgesteroneTestResultNegative",
+     "short": "negative",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueProgesteroneTestResultPositive",
+     "short": "positive",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueProgesteroneTestResultIndeterminate",
+     "short": "indeterminate",
+     "value": 3
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierProgesteroneTestResult type.\n\nThis category value tracks the result of a home ovulation confirmation test that use surges in hormone levels to confirm if ovulation has occurred.",
+   "options": false
+  },
+  "HKCategoryValueSeverity": {
+   "available": "13.6",
+   "cases": [
+    {
+     "name": "HKCategoryValueSeverityUnspecified",
+     "short": "unspecified",
+     "value": 0
+    },
+    {
+     "name": "HKCategoryValueSeverityNotPresent",
+     "short": "notPresent",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueSeverityMild",
+     "short": "mild",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueSeverityModerate",
+     "short": "moderate",
+     "value": 3
+    },
+    {
+     "name": "HKCategoryValueSeveritySevere",
+     "short": "severe",
+     "value": 4
+    }
+   ],
+   "doc": "Set of values to indicate the severity of a symptom.",
+   "options": false
+  },
+  "HKCategoryValueSleepAnalysis": {
+   "available": "8.0",
+   "cases": [
+    {
+     "doc": "The user is in bed.",
+     "name": "HKCategoryValueSleepAnalysisInBed",
+     "short": "inBed",
+     "value": 0
+    },
+    {
+     "available": "16.0",
+     "doc": "The user is asleep and no specific stage is specified.",
+     "name": "HKCategoryValueSleepAnalysisAsleepUnspecified",
+     "short": "asleepUnspecified",
+     "value": 1
+    },
+    {
+     "deprecated": true,
+     "name": "HKCategoryValueSleepAnalysisAsleep",
+     "short": "asleep",
+     "value": 1
+    },
+    {
+     "available": "10.0",
+     "doc": "The user is awake.",
+     "name": "HKCategoryValueSleepAnalysisAwake",
+     "short": "awake",
+     "value": 2
+    },
+    {
+     "available": "16.0",
+     "doc": "Corresponds to Stages 1 and 2 of AASM scoring model.",
+     "name": "HKCategoryValueSleepAnalysisAsleepCore",
+     "short": "asleepCore",
+     "value": 3
+    },
+    {
+     "available": "16.0",
+     "doc": "Corresponds to Stage 3 of AASM scoring model.",
+     "name": "HKCategoryValueSleepAnalysisAsleepDeep",
+     "short": "asleepDeep",
+     "value": 4
+    },
+    {
+     "available": "16.0",
+     "doc": "Corresponds to REM stage of AASM scoring model.",
+     "name": "HKCategoryValueSleepAnalysisAsleepREM",
+     "short": "asleepREM",
+     "value": 5
+    }
+   ],
+   "doc": "Set of values that may be used for HKCategorySamples with the HKCategoryTypeIdentifierSleepAnalysis type.\n\nTo represent the user being both in bed and asleep, use two or more samples with overlapping times. By comparing the start and end times of these samples, it is possible to calculate a number of secondary statistics: 1) The amount of time it took for the user to fall asleep 2) The percentage of time in bed that the user actually spent sleeping, 3) The number of times the user woke while in bed 4) The total amount of time spent both in bed and asleep.",
+   "options": false
+  },
+  "HKCategoryValueVaginalBleeding": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKCategoryValueVaginalBleedingUnspecified",
+     "short": "unspecified",
+     "value": 1
+    },
+    {
+     "name": "HKCategoryValueVaginalBleedingLight",
+     "short": "light",
+     "value": 2
+    },
+    {
+     "name": "HKCategoryValueVaginalBleedingMedium",
+     "short": "medium",
+     "value": 3
+    },
+    {
+     "name": "HKCategoryValueVaginalBleedingHeavy",
+     "short": "heavy",
+     "value": 4
+    },
+    {
+     "name": "HKCategoryValueVaginalBleedingNone",
+     "short": "none",
+     "value": 5
+    }
+   ],
+   "doc": "Set of values to indicate the type of bleeding.",
+   "options": false
+  },
+  "HKCyclingFunctionalThresholdPowerTestType": {
+   "available": "17.0",
+   "cases": [
+    {
+     "doc": "The user was exerted to their physical limit for a sustained period of 60 minutes.",
+     "name": "HKCyclingFunctionalThresholdPowerTestTypeMaxExercise60Minute",
+     "short": "maxExercise60Minute",
+     "value": 1
+    },
+    {
+     "doc": "The user was exerted to their physical limit for a sustained period of 20 minutes.",
+     "name": "HKCyclingFunctionalThresholdPowerTestTypeMaxExercise20Minute",
+     "short": "maxExercise20Minute",
+     "value": 2
+    },
+    {
+     "doc": "Test with gradual intensity increase until exhaustion.",
+     "name": "HKCyclingFunctionalThresholdPowerTestTypeRampTest",
+     "short": "rampTest",
+     "value": 3
+    },
+    {
+     "doc": "An equation was used based on data from the user’s cycling workouts to calculate a predicted Cycling Functional Threshold Power.",
+     "name": "HKCyclingFunctionalThresholdPowerTestTypePredictionExercise",
+     "short": "predictionExercise",
+     "value": 4
+    }
+   ],
+   "doc": "Represents the test used to determine a Cycling Functional Threshold Power value.",
+   "options": false
+  },
+  "HKDevicePlacementSide": {
+   "available": "14.0",
+   "cases": [
+    {
+     "doc": "Unable to determine the placement of the device",
+     "name": "HKDevicePlacementSideUnknown",
+     "short": "unknown",
+     "value": 0
+    },
+    {
+     "doc": "Device predominantly worn on left side",
+     "name": "HKDevicePlacementSideLeft",
+     "short": "left",
+     "value": 1
+    },
+    {
+     "doc": "Device predominantly worn on right side",
+     "name": "HKDevicePlacementSideRight",
+     "short": "right",
+     "value": 2
+    },
+    {
+     "doc": "Device predominantly worn on the middle of the body",
+     "name": "HKDevicePlacementSideCentral",
+     "short": "central",
+     "value": 3
+    }
+   ],
+   "doc": "The detected placement of the device during the bout of walking",
+   "options": false
+  },
+  "HKElectrocardiogramClassification": {
+   "available": "14.0",
+   "cases": [
+    {
+     "doc": "No classification is set on this sample.",
+     "name": "HKElectrocardiogramClassificationNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "doc": "The sample exhibits no signs  of atrial fibrillation.",
+     "name": "HKElectrocardiogramClassificationSinusRhythm",
+     "short": "sinusRhythm",
+     "value": 1
+    },
+    {
+     "doc": "The sample exhibits signs of atrial fibrillation.",
+     "name": "HKElectrocardiogramClassificationAtrialFibrillation",
+     "short": "atrialFibrillation",
+     "value": 2
+    },
+    {
+     "doc": "The sample classifier could not check for atrial fibrillation due to a heart rate under 50 BPM.",
+     "name": "HKElectrocardiogramClassificationInconclusiveLowHeartRate",
+     "short": "inconclusiveLowHeartRate",
+     "value": 3
+    },
+    {
+     "doc": "The sample classifier could not check for atrial fibrillation due to a high heart rate.",
+     "name": "HKElectrocardiogramClassificationInconclusiveHighHeartRate",
+     "short": "inconclusiveHighHeartRate",
+     "value": 4
+    },
+    {
+     "doc": "The sample classifier did not attempt a classification due to not meeting the signal requirements.",
+     "name": "HKElectrocardiogramClassificationInconclusivePoorReading",
+     "short": "inconclusivePoorReading",
+     "value": 5
+    },
+    {
+     "doc": "The sample classifier could not determine a classification.",
+     "name": "HKElectrocardiogramClassificationInconclusiveOther",
+     "short": "inconclusiveOther",
+     "value": 6
+    },
+    {
+     "doc": "The classification created for this sample is unrecognized on this device.",
+     "name": "HKElectrocardiogramClassificationUnrecognized",
+     "short": "unrecognized",
+     "value": 100
+    }
+   ],
+   "doc": "The possible classifications determined for HKElectrocardiograms",
+   "options": false,
+   "swiftName": "HKElectrocardiogram.Classification"
+  },
+  "HKElectrocardiogramLead": {
+   "available": "14.0",
+   "cases": [
+    {
+     "name": "HKElectrocardiogramLeadAppleWatchSimilarToLeadI",
+     "short": "appleWatchSimilarToLeadI",
+     "value": 1
+    }
+   ],
+   "doc": "The medically-defined leads supported by HKElectrocardiogram",
+   "options": false,
+   "swiftName": "HKElectrocardiogram.Lead"
+  },
+  "HKElectrocardiogramSymptomsStatus": {
+   "available": "14.0",
+   "cases": [
+    {
+     "doc": "The user did not specify whether or not they experienced symptoms. HKElectrocardiogramSymptomsStatusNone          The user did not experience any symptoms during the duration of the electrocardiogram reading. HKElectrocardiogramSymptomsStatusPresent       The user indicated that they experienced symptoms during the duration of the electrocardiogram reading.",
+     "name": "HKElectrocardiogramSymptomsStatusNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "name": "HKElectrocardiogramSymptomsStatusNone",
+     "short": "none",
+     "value": 1
+    },
+    {
+     "name": "HKElectrocardiogramSymptomsStatusPresent",
+     "short": "present",
+     "value": 2
+    }
+   ],
+   "doc": "An indication of whether the user experienced symptoms when taking an ECG\n\nIf an HKElectrocardiogram indicates that there are symptoms present, you must do a separate sample query to retrieve those symptoms.",
+   "options": false,
+   "swiftName": "HKElectrocardiogram.SymptomsStatus"
+  },
+  "HKErrorCode": {
+   "available": "8.0",
+   "cases": [
+    {
+     "doc": "Unknown error.",
+     "name": "HKUnknownError",
+     "short": "unknownError",
+     "value": 0
+    },
+    {
+     "deprecated": true,
+     "name": "HKNoError",
+     "short": "noError",
+     "value": 0
+    },
+    {
+     "doc": "HealthKit is not available on this device.",
+     "name": "HKErrorHealthDataUnavailable",
+     "short": "errorHealthDataUnavailable",
+     "value": 1
+    },
+    {
+     "doc": "HealthKit is restricted on this device.",
+     "name": "HKErrorHealthDataRestricted",
+     "short": "errorHealthDataRestricted",
+     "value": 2
+    },
+    {
+     "doc": "An invalid argument was provided to the API.",
+     "name": "HKErrorInvalidArgument",
+     "short": "errorInvalidArgument",
+     "value": 3
+    },
+    {
+     "doc": "The application is not authorized to perform the requested operation.",
+     "name": "HKErrorAuthorizationDenied",
+     "short": "errorAuthorizationDenied",
+     "value": 4
+    },
+    {
+     "doc": "The user has not yet chosen whether the application is authorized to perform the requested operation.",
+     "name": "HKErrorAuthorizationNotDetermined",
+     "short": "errorAuthorizationNotDetermined",
+     "value": 5
+    },
+    {
+     "doc": "Protected health data is inaccessible because the device is locked.",
+     "name": "HKErrorDatabaseInaccessible",
+     "short": "errorDatabaseInaccessible",
+     "value": 6
+    },
+    {
+     "doc": "The user canceled the operation.",
+     "name": "HKErrorUserCanceled",
+     "short": "errorUserCanceled",
+     "value": 7
+    },
+    {
+     "available": "9.0",
+     "doc": "Another primary workout session has started or is already ongoing by this or another application.",
+     "name": "HKErrorAnotherWorkoutSessionStarted",
+     "short": "errorAnotherWorkoutSessionStarted",
+     "value": 8
+    },
+    {
+     "available": "9.0",
+     "doc": "User exited the application while a workout session was running.",
+     "name": "HKErrorUserExitedWorkoutSession",
+     "short": "errorUserExitedWorkoutSession",
+     "value": 9
+    },
+    {
+     "available": "12.0",
+     "doc": "The user has not granted the application authorization to access required data types.",
+     "name": "HKErrorRequiredAuthorizationDenied",
+     "short": "errorRequiredAuthorizationDenied",
+     "value": 10
+    },
+    {
+     "available": "14.0",
+     "doc": "No data is available for the requested query and predicate, and so the query's result could not be meaningfully computed.",
+     "name": "HKErrorNoData",
+     "short": "errorNoData",
+     "value": 11
+    },
+    {
+     "available": "17.0",
+     "doc": "A workout session is not allowed to be created for the activity type.",
+     "name": "HKErrorWorkoutActivityNotAllowed",
+     "short": "errorWorkoutActivityNotAllowed",
+     "value": 12
+    },
+    {
+     "available": "17.0",
+     "doc": "The provided data's size exceeds the maximum allowed.",
+     "name": "HKErrorDataSizeExceeded",
+     "short": "errorDataSizeExceeded",
+     "value": 13
+    },
+    {
+     "available": "17.0",
+     "doc": "A workout session is not allowed to start or prepare when this app is in the background.",
+     "name": "HKErrorBackgroundWorkoutSessionNotAllowed",
+     "short": "errorBackgroundWorkoutSessionNotAllowed",
+     "value": 14
+    },
+    {
+     "available": "18.0",
+     "doc": "Protected Health data changes are not allowed in Guest User mode on visionOS.",
+     "name": "HKErrorNotPermissibleForGuestUserMode",
+     "short": "errorNotPermissibleForGuestUserMode",
+     "value": 15
+    }
+   ],
+   "options": false
+  },
+  "HKFitzpatrickSkinType": {
+   "available": "9.0",
+   "cases": [
+    {
+     "name": "HKFitzpatrickSkinTypeNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "doc": "Pale white skin that always burns easily in the sun and never tans.",
+     "name": "HKFitzpatrickSkinTypeI",
+     "short": "I",
+     "value": 1
+    },
+    {
+     "doc": "White skin that burns easily and tans minimally.",
+     "name": "HKFitzpatrickSkinTypeII",
+     "short": "II",
+     "value": 2
+    },
+    {
+     "doc": "White to light brown skin that burns moderately and tans uniformly.",
+     "name": "HKFitzpatrickSkinTypeIII",
+     "short": "III",
+     "value": 3
+    },
+    {
+     "doc": "Beige-olive, lightly tanned skin that burns minimally and tans moderately.",
+     "name": "HKFitzpatrickSkinTypeIV",
+     "short": "IV",
+     "value": 4
+    },
+    {
+     "doc": "Brown skin that rarely burns and tans profusely.",
+     "name": "HKFitzpatrickSkinTypeV",
+     "short": "V",
+     "value": 5
+    },
+    {
+     "doc": "Dark brown to black skin that never burns and tans profusely.",
+     "name": "HKFitzpatrickSkinTypeVI",
+     "short": "VI",
+     "value": 6
+    }
+   ],
+   "doc": "This enumerated type is used to represent the skin type of an individual based on the Fitzpatrick scale.\n\nThe Fitzpatrick scale is a numerical classification for skin color based on the skin's response to sun exposure in terms of the degree of burning and tanning.",
+   "options": false
+  },
+  "HKGAD7AssessmentAnswer": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKGAD7AssessmentAnswerNotAtAll",
+     "short": "notAtAll",
+     "value": 0
+    },
+    {
+     "name": "HKGAD7AssessmentAnswerSeveralDays",
+     "short": "severalDays",
+     "value": 1
+    },
+    {
+     "name": "HKGAD7AssessmentAnswerMoreThanHalfTheDays",
+     "short": "moreThanHalfTheDays",
+     "value": 2
+    },
+    {
+     "name": "HKGAD7AssessmentAnswerNearlyEveryDay",
+     "short": "nearlyEveryDay",
+     "value": 3
+    }
+   ],
+   "doc": "Answer to question on GAD-7 assessment.",
+   "options": false,
+   "swiftName": "HKGAD7Assessment.Answer"
+  },
+  "HKGAD7AssessmentRisk": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKGAD7AssessmentRiskNoneToMinimal",
+     "short": "noneToMinimal",
+     "value": 1
+    },
+    {
+     "name": "HKGAD7AssessmentRiskMild",
+     "short": "mild",
+     "value": 2
+    },
+    {
+     "name": "HKGAD7AssessmentRiskModerate",
+     "short": "moderate",
+     "value": 3
+    },
+    {
+     "name": "HKGAD7AssessmentRiskSevere",
+     "short": "severe",
+     "value": 4
+    }
+   ],
+   "doc": "Anxiety risk level determined by GAD-7 assessment.",
+   "options": false,
+   "swiftName": "HKGAD7Assessment.Risk"
+  },
+  "HKHeartRateMotionContext": {
+   "available": "11.0",
+   "cases": [
+    {
+     "name": "HKHeartRateMotionContextNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "name": "HKHeartRateMotionContextSedentary",
+     "short": "sedentary",
+     "value": 1
+    },
+    {
+     "name": "HKHeartRateMotionContextActive",
+     "short": "active",
+     "value": 2
+    }
+   ],
+   "options": false
+  },
+  "HKHeartRateRecoveryTestType": {
+   "available": "16.0",
+   "cases": [
+    {
+     "doc": "The user was exerted to their physical limit to evaluate actual Heart Rate Recovery.",
+     "name": "HKHeartRateRecoveryTestTypeMaxExercise",
+     "short": "maxExercise",
+     "value": 1
+    },
+    {
+     "doc": "A specific test protocol was used to calculate and correlate a predicted Heart Rate Recovery.",
+     "name": "HKHeartRateRecoveryTestTypePredictionSubMaxExercise",
+     "short": "predictionSubMaxExercise",
+     "value": 2
+    },
+    {
+     "doc": "A non-exercise equation was used based on user metrics to calculate a predicted Heart Rate Recovery.",
+     "name": "HKHeartRateRecoveryTestTypePredictionNonExercise",
+     "short": "predictionNonExercise",
+     "value": 3
+    }
+   ],
+   "doc": "Represents the test used to determine a Heart Rate Recovery value",
+   "options": false
+  },
+  "HKHeartRateSensorLocation": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKHeartRateSensorLocationOther",
+     "short": "other",
+     "value": 0
+    },
+    {
+     "name": "HKHeartRateSensorLocationChest",
+     "short": "chest",
+     "value": 1
+    },
+    {
+     "name": "HKHeartRateSensorLocationWrist",
+     "short": "wrist",
+     "value": 2
+    },
+    {
+     "name": "HKHeartRateSensorLocationFinger",
+     "short": "finger",
+     "value": 3
+    },
+    {
+     "name": "HKHeartRateSensorLocationHand",
+     "short": "hand",
+     "value": 4
+    },
+    {
+     "name": "HKHeartRateSensorLocationEarLobe",
+     "short": "earLobe",
+     "value": 5
+    },
+    {
+     "name": "HKHeartRateSensorLocationFoot",
+     "short": "foot",
+     "value": 6
+    }
+   ],
+   "options": false
+  },
+  "HKInsulinDeliveryReason": {
+   "available": "11.0",
+   "cases": [
+    {
+     "doc": "Delivery for the base metabolic needs of the individual, often administered as a continuous rate from an insulin pump, or a periodic injection of slow-acting insulin.",
+     "name": "HKInsulinDeliveryReasonBasal",
+     "short": "basal",
+     "value": 1
+    },
+    {
+     "doc": "Delivery for the episodic needs of the individual, such as a meal or glucose level correction.",
+     "name": "HKInsulinDeliveryReasonBolus",
+     "short": "bolus",
+     "value": 2
+    }
+   ],
+   "doc": "Represents a medical reason for the delivery of insulin",
+   "options": false
+  },
+  "HKMedicationDoseEventLogStatus": {
+   "available": "26.0",
+   "cases": [
+    {
+     "doc": "The person doesn't interact with a scheduled medication reminder.\n\nThe system generates this to represent an untouched reminder slot.",
+     "name": "HKMedicationDoseEventLogStatusNotInteracted",
+     "short": "notInteracted",
+     "value": 1
+    },
+    {
+     "doc": "The system assigns this status when it fails to deliver a scheduled medication notification.\n\nThe system can generate this status because of a person's notification restrictions or issues with notification delivery.",
+     "name": "HKMedicationDoseEventLogStatusNotificationNotSent",
+     "short": "notificationNotSent",
+     "value": 2
+    },
+    {
+     "doc": "The person snoozes a scheduled medication notification.",
+     "name": "HKMedicationDoseEventLogStatusSnoozed",
+     "short": "snoozed",
+     "value": 3
+    },
+    {
+     "doc": "The person logs that they took the medication dose.",
+     "name": "HKMedicationDoseEventLogStatusTaken",
+     "short": "taken",
+     "value": 4
+    },
+    {
+     "doc": "The person logs that they skipped the medication dose.",
+     "name": "HKMedicationDoseEventLogStatusSkipped",
+     "short": "skipped",
+     "value": 5
+    },
+    {
+     "doc": "The person undoes a previously logged medication status.\n\nThe system clears the prior status.",
+     "name": "HKMedicationDoseEventLogStatusNotLogged",
+     "short": "notLogged",
+     "value": 6
+    }
+   ],
+   "doc": "The statuses the system assigns to a logged medication dose event.",
+   "options": false,
+   "swiftName": "HKMedicationDoseEvent.LogStatus"
+  },
+  "HKMedicationDoseEventScheduleType": {
+   "available": "26.0",
+   "cases": [
+    {
+     "doc": "The person logged this dose event ad-hoc, outside of any scheduled reminder.",
+     "name": "HKMedicationDoseEventScheduleTypeAsNeeded",
+     "short": "asNeeded",
+     "value": 1
+    },
+    {
+     "doc": "The person logged this dose event in response to a scheduled medication reminder.",
+     "name": "HKMedicationDoseEventScheduleTypeSchedule",
+     "short": "schedule",
+     "value": 2
+    }
+   ],
+   "doc": "The kind of schedule the system associates with a logged medication dose event.\n\nEach value tells you whether the person logged the dose ad-hoc or in response to a scheduled medication reminder.",
+   "options": false,
+   "swiftName": "HKMedicationDoseEvent.ScheduleType"
+  },
+  "HKMetricPrefix": {
+   "available": "8.0",
+   "cases": [
+    {
+     "doc": "10^0",
+     "name": "HKMetricPrefixNone",
+     "short": "none",
+     "value": 0
+    },
+    {
+     "available": "13.0",
+     "doc": "10^-15",
+     "name": "HKMetricPrefixFemto",
+     "short": "femto",
+     "value": 13
+    },
+    {
+     "doc": "10^-12",
+     "name": "HKMetricPrefixPico",
+     "short": "pico",
+     "value": 1
+    },
+    {
+     "doc": "10^-9",
+     "name": "HKMetricPrefixNano",
+     "short": "nano",
+     "value": 2
+    },
+    {
+     "doc": "10^-6",
+     "name": "HKMetricPrefixMicro",
+     "short": "micro",
+     "value": 3
+    },
+    {
+     "doc": "10^-3",
+     "name": "HKMetricPrefixMilli",
+     "short": "milli",
+     "value": 4
+    },
+    {
+     "doc": "10^-2",
+     "name": "HKMetricPrefixCenti",
+     "short": "centi",
+     "value": 5
+    },
+    {
+     "doc": "10^-1",
+     "name": "HKMetricPrefixDeci",
+     "short": "deci",
+     "value": 6
+    },
+    {
+     "doc": "10^1",
+     "name": "HKMetricPrefixDeca",
+     "short": "deca",
+     "value": 7
+    },
+    {
+     "doc": "10^2",
+     "name": "HKMetricPrefixHecto",
+     "short": "hecto",
+     "value": 8
+    },
+    {
+     "doc": "10^3",
+     "name": "HKMetricPrefixKilo",
+     "short": "kilo",
+     "value": 9
+    },
+    {
+     "doc": "10^6",
+     "name": "HKMetricPrefixMega",
+     "short": "mega",
+     "value": 10
+    },
+    {
+     "doc": "10^9",
+     "name": "HKMetricPrefixGiga",
+     "short": "giga",
+     "value": 11
+    },
+    {
+     "doc": "10^12",
+     "name": "HKMetricPrefixTera",
+     "short": "tera",
+     "value": 12
+    }
+   ],
+   "options": false
+  },
+  "HKPHQ9AssessmentAnswer": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKPHQ9AssessmentAnswerNotAtAll",
+     "short": "notAtAll",
+     "value": 0
+    },
+    {
+     "name": "HKPHQ9AssessmentAnswerSeveralDays",
+     "short": "severalDays",
+     "value": 1
+    },
+    {
+     "name": "HKPHQ9AssessmentAnswerMoreThanHalfTheDays",
+     "short": "moreThanHalfTheDays",
+     "value": 2
+    },
+    {
+     "name": "HKPHQ9AssessmentAnswerNearlyEveryDay",
+     "short": "nearlyEveryDay",
+     "value": 3
+    },
+    {
+     "doc": "Only acceptable for Question #9 on the PHQ-9",
+     "name": "HKPHQ9AssessmentAnswerPreferNotToAnswer",
+     "short": "preferNotToAnswer",
+     "value": 4
+    }
+   ],
+   "doc": "Answer to question on PHQ-9 assessment.",
+   "options": false,
+   "swiftName": "HKPHQ9Assessment.Answer"
+  },
+  "HKPHQ9AssessmentRisk": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKPHQ9AssessmentRiskNoneToMinimal",
+     "short": "noneToMinimal",
+     "value": 1
+    },
+    {
+     "name": "HKPHQ9AssessmentRiskMild",
+     "short": "mild",
+     "value": 2
+    },
+    {
+     "name": "HKPHQ9AssessmentRiskModerate",
+     "short": "moderate",
+     "value": 3
+    },
+    {
+     "name": "HKPHQ9AssessmentRiskModeratelySevere",
+     "short": "moderatelySevere",
+     "value": 4
+    },
+    {
+     "name": "HKPHQ9AssessmentRiskSevere",
+     "short": "severe",
+     "value": 5
+    }
+   ],
+   "doc": "Depression risk level determined by PHQ-9 assessment.",
+   "options": false,
+   "swiftName": "HKPHQ9Assessment.Risk"
+  },
+  "HKPhysicalEffortEstimationType": {
+   "available": "17.0",
+   "cases": [
+    {
+     "doc": "Indicates the value was calculated based on external standard such as a stationary bike",
+     "name": "HKPhysicalEffortEstimationTypeActivityLookup",
+     "short": "activityLookup",
+     "value": 1
+    },
+    {
+     "doc": "Indicates the value was calculated based on movement signals (walking, running etc.)",
+     "name": "HKPhysicalEffortEstimationTypeDeviceSensed",
+     "short": "deviceSensed",
+     "value": 2
+    }
+   ],
+   "doc": "Represents the estimation used to create a Physical Effort Sample.",
+   "options": false
+  },
+  "HKPrismBase": {
+   "available": "16.0",
+   "cases": [
+    {
+     "name": "HKPrismBaseNone",
+     "short": "none",
+     "value": 0
+    },
+    {
+     "name": "HKPrismBaseUp",
+     "short": "up",
+     "value": 1
+    },
+    {
+     "name": "HKPrismBaseDown",
+     "short": "down",
+     "value": 2
+    },
+    {
+     "name": "HKPrismBaseIn",
+     "short": "in",
+     "value": 3
+    },
+    {
+     "name": "HKPrismBaseOut",
+     "short": "out",
+     "value": 4
+    }
+   ],
+   "doc": "Represents the prism base for rectangular coordinates",
+   "options": false
+  },
+  "HKQuantityAggregationStyle": {
+   "available": "8.0",
+   "cases": [
+    {
+     "doc": "Samples may be summed over a time interval.",
+     "name": "HKQuantityAggregationStyleCumulative",
+     "short": "cumulative",
+     "value": 0
+    },
+    {
+     "available": "13.0",
+     "doc": "Samples may be averaged over a time interval using the arithmetic mean",
+     "name": "HKQuantityAggregationStyleDiscreteArithmetic",
+     "short": "discreteArithmetic",
+     "value": 1
+    },
+    {
+     "deprecated": true,
+     "name": "HKQuantityAggregationStyleDiscrete",
+     "short": "discrete",
+     "value": 1
+    },
+    {
+     "available": "13.0",
+     "doc": "Samples may be averaged over a time interval using a temporally weighted integration function",
+     "name": "HKQuantityAggregationStyleDiscreteTemporallyWeighted",
+     "short": "discreteTemporallyWeighted",
+     "value": 2
+    },
+    {
+     "available": "13.0",
+     "doc": "Samples may be combined over a time interval by computing the equivalent continuous sound level; see IEC 61672-1",
+     "name": "HKQuantityAggregationStyleDiscreteEquivalentContinuousLevel",
+     "short": "discreteEquivalentContinuousLevel",
+     "value": 3
+    }
+   ],
+   "doc": "Describes how quantities can be aggregated over time.",
+   "options": false
+  },
+  "HKQueryOptions": {
+   "available": "8.0",
+   "cases": [
+    {
+     "doc": "The sample's time period must overlap with the predicate's time period.",
+     "name": "HKQueryOptionNone",
+     "short": "none",
+     "value": 0
+    },
+    {
+     "doc": "The sample's start date must fall in the time period (>= startDate, < endDate)",
+     "name": "HKQueryOptionStrictStartDate",
+     "short": "strictStartDate",
+     "value": 1
+    },
+    {
+     "doc": "The sample's end date must fall in the time period (>= startDate, < endDate)",
+     "name": "HKQueryOptionStrictEndDate",
+     "short": "strictEndDate",
+     "value": 2
+    }
+   ],
+   "doc": "Time interval options are used to describe how an HKSample's time period overlaps with a given time period.",
+   "options": true
+  },
+  "HKStateOfMindAssociation": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKStateOfMindAssociationCommunity",
+     "short": "community",
+     "value": 1
+    },
+    {
+     "name": "HKStateOfMindAssociationCurrentEvents",
+     "short": "currentEvents",
+     "value": 2
+    },
+    {
+     "name": "HKStateOfMindAssociationDating",
+     "short": "dating",
+     "value": 3
+    },
+    {
+     "name": "HKStateOfMindAssociationEducation",
+     "short": "education",
+     "value": 4
+    },
+    {
+     "name": "HKStateOfMindAssociationFamily",
+     "short": "family",
+     "value": 5
+    },
+    {
+     "name": "HKStateOfMindAssociationFitness",
+     "short": "fitness",
+     "value": 6
+    },
+    {
+     "name": "HKStateOfMindAssociationFriends",
+     "short": "friends",
+     "value": 7
+    },
+    {
+     "name": "HKStateOfMindAssociationHealth",
+     "short": "health",
+     "value": 8
+    },
+    {
+     "name": "HKStateOfMindAssociationHobbies",
+     "short": "hobbies",
+     "value": 9
+    },
+    {
+     "name": "HKStateOfMindAssociationIdentity",
+     "short": "identity",
+     "value": 10
+    },
+    {
+     "name": "HKStateOfMindAssociationMoney",
+     "short": "money",
+     "value": 11
+    },
+    {
+     "name": "HKStateOfMindAssociationPartner",
+     "short": "partner",
+     "value": 12
+    },
+    {
+     "name": "HKStateOfMindAssociationSelfCare",
+     "short": "selfCare",
+     "value": 13
+    },
+    {
+     "name": "HKStateOfMindAssociationSpirituality",
+     "short": "spirituality",
+     "value": 14
+    },
+    {
+     "name": "HKStateOfMindAssociationTasks",
+     "short": "tasks",
+     "value": 15
+    },
+    {
+     "name": "HKStateOfMindAssociationTravel",
+     "short": "travel",
+     "value": 16
+    },
+    {
+     "name": "HKStateOfMindAssociationWork",
+     "short": "work",
+     "value": 17
+    },
+    {
+     "name": "HKStateOfMindAssociationWeather",
+     "short": "weather",
+     "value": 18
+    }
+   ],
+   "doc": "A general facet of life with which a felt experience may be associated.",
+   "options": false,
+   "swiftName": "HKStateOfMind.Association"
+  },
+  "HKStateOfMindKind": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKStateOfMindKindMomentaryEmotion",
+     "short": "momentaryEmotion",
+     "value": 1
+    },
+    {
+     "name": "HKStateOfMindKindDailyMood",
+     "short": "dailyMood",
+     "value": 2
+    }
+   ],
+   "doc": "The kind of feeling type captured by a state of mind log, considering the period of time the reflection concerns.",
+   "options": false,
+   "swiftName": "HKStateOfMind.Kind"
+  },
+  "HKStateOfMindLabel": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKStateOfMindLabelAmazed",
+     "short": "amazed",
+     "value": 1
+    },
+    {
+     "name": "HKStateOfMindLabelAmused",
+     "short": "amused",
+     "value": 2
+    },
+    {
+     "name": "HKStateOfMindLabelAngry",
+     "short": "angry",
+     "value": 3
+    },
+    {
+     "name": "HKStateOfMindLabelAnxious",
+     "short": "anxious",
+     "value": 4
+    },
+    {
+     "name": "HKStateOfMindLabelAshamed",
+     "short": "ashamed",
+     "value": 5
+    },
+    {
+     "name": "HKStateOfMindLabelBrave",
+     "short": "brave",
+     "value": 6
+    },
+    {
+     "name": "HKStateOfMindLabelCalm",
+     "short": "calm",
+     "value": 7
+    },
+    {
+     "name": "HKStateOfMindLabelContent",
+     "short": "content",
+     "value": 8
+    },
+    {
+     "name": "HKStateOfMindLabelDisappointed",
+     "short": "disappointed",
+     "value": 9
+    },
+    {
+     "name": "HKStateOfMindLabelDiscouraged",
+     "short": "discouraged",
+     "value": 10
+    },
+    {
+     "name": "HKStateOfMindLabelDisgusted",
+     "short": "disgusted",
+     "value": 11
+    },
+    {
+     "name": "HKStateOfMindLabelEmbarrassed",
+     "short": "embarrassed",
+     "value": 12
+    },
+    {
+     "name": "HKStateOfMindLabelExcited",
+     "short": "excited",
+     "value": 13
+    },
+    {
+     "name": "HKStateOfMindLabelFrustrated",
+     "short": "frustrated",
+     "value": 14
+    },
+    {
+     "name": "HKStateOfMindLabelGrateful",
+     "short": "grateful",
+     "value": 15
+    },
+    {
+     "name": "HKStateOfMindLabelGuilty",
+     "short": "guilty",
+     "value": 16
+    },
+    {
+     "name": "HKStateOfMindLabelHappy",
+     "short": "happy",
+     "value": 17
+    },
+    {
+     "name": "HKStateOfMindLabelHopeless",
+     "short": "hopeless",
+     "value": 18
+    },
+    {
+     "name": "HKStateOfMindLabelIrritated",
+     "short": "irritated",
+     "value": 19
+    },
+    {
+     "name": "HKStateOfMindLabelJealous",
+     "short": "jealous",
+     "value": 20
+    },
+    {
+     "name": "HKStateOfMindLabelJoyful",
+     "short": "joyful",
+     "value": 21
+    },
+    {
+     "name": "HKStateOfMindLabelLonely",
+     "short": "lonely",
+     "value": 22
+    },
+    {
+     "name": "HKStateOfMindLabelPassionate",
+     "short": "passionate",
+     "value": 23
+    },
+    {
+     "name": "HKStateOfMindLabelPeaceful",
+     "short": "peaceful",
+     "value": 24
+    },
+    {
+     "name": "HKStateOfMindLabelProud",
+     "short": "proud",
+     "value": 25
+    },
+    {
+     "name": "HKStateOfMindLabelRelieved",
+     "short": "relieved",
+     "value": 26
+    },
+    {
+     "name": "HKStateOfMindLabelSad",
+     "short": "sad",
+     "value": 27
+    },
+    {
+     "name": "HKStateOfMindLabelScared",
+     "short": "scared",
+     "value": 28
+    },
+    {
+     "name": "HKStateOfMindLabelStressed",
+     "short": "stressed",
+     "value": 29
+    },
+    {
+     "name": "HKStateOfMindLabelSurprised",
+     "short": "surprised",
+     "value": 30
+    },
+    {
+     "name": "HKStateOfMindLabelWorried",
+     "short": "worried",
+     "value": 31
+    },
+    {
+     "name": "HKStateOfMindLabelAnnoyed",
+     "short": "annoyed",
+     "value": 32
+    },
+    {
+     "name": "HKStateOfMindLabelConfident",
+     "short": "confident",
+     "value": 33
+    },
+    {
+     "name": "HKStateOfMindLabelDrained",
+     "short": "drained",
+     "value": 34
+    },
+    {
+     "name": "HKStateOfMindLabelHopeful",
+     "short": "hopeful",
+     "value": 35
+    },
+    {
+     "name": "HKStateOfMindLabelIndifferent",
+     "short": "indifferent",
+     "value": 36
+    },
+    {
+     "name": "HKStateOfMindLabelOverwhelmed",
+     "short": "overwhelmed",
+     "value": 37
+    },
+    {
+     "name": "HKStateOfMindLabelSatisfied",
+     "short": "satisfied",
+     "value": 38
+    }
+   ],
+   "doc": "A specific word describing a felt experience.",
+   "options": false,
+   "swiftName": "HKStateOfMind.Label"
+  },
+  "HKStateOfMindValenceClassification": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKStateOfMindValenceClassificationVeryUnpleasant",
+     "short": "veryUnpleasant",
+     "value": 1
+    },
+    {
+     "name": "HKStateOfMindValenceClassificationUnpleasant",
+     "short": "unpleasant",
+     "value": 2
+    },
+    {
+     "name": "HKStateOfMindValenceClassificationSlightlyUnpleasant",
+     "short": "slightlyUnpleasant",
+     "value": 3
+    },
+    {
+     "name": "HKStateOfMindValenceClassificationNeutral",
+     "short": "neutral",
+     "value": 4
+    },
+    {
+     "name": "HKStateOfMindValenceClassificationSlightlyPleasant",
+     "short": "slightlyPleasant",
+     "value": 5
+    },
+    {
+     "name": "HKStateOfMindValenceClassificationPleasant",
+     "short": "pleasant",
+     "value": 6
+    },
+    {
+     "name": "HKStateOfMindValenceClassificationVeryPleasant",
+     "short": "veryPleasant",
+     "value": 7
+    }
+   ],
+   "doc": "A general region of pleasantness derived from valence logged on a state of mind sample.",
+   "options": false,
+   "swiftName": "HKStateOfMind.ValenceClassification"
+  },
+  "HKStatisticsOptions": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKStatisticsOptionNone",
+     "short": "none",
+     "value": 0
+    },
+    {
+     "name": "HKStatisticsOptionSeparateBySource",
+     "short": "separateBySource",
+     "value": 1
+    },
+    {
+     "doc": "Calculate averageQuantity when creating statistics.",
+     "name": "HKStatisticsOptionDiscreteAverage",
+     "short": "discreteAverage",
+     "value": 2
+    },
+    {
+     "doc": "Calculate minQuantity when creating statistics.",
+     "name": "HKStatisticsOptionDiscreteMin",
+     "short": "discreteMin",
+     "value": 4
+    },
+    {
+     "doc": "Calculate maxQuantity when creating statistics.",
+     "name": "HKStatisticsOptionDiscreteMax",
+     "short": "discreteMax",
+     "value": 8
+    },
+    {
+     "doc": "Calculate sumQuantity when creating statistics.",
+     "name": "HKStatisticsOptionCumulativeSum",
+     "short": "cumulativeSum",
+     "value": 16
+    },
+    {
+     "available": "13.0",
+     "doc": "Calculate mostRecentQuantity when creating statistics.",
+     "name": "HKStatisticsOptionMostRecent",
+     "short": "mostRecent",
+     "value": 32
+    },
+    {
+     "available": "12.0",
+     "deprecated": true,
+     "name": "HKStatisticsOptionDiscreteMostRecent",
+     "short": "discreteMostRecent",
+     "value": 32
+    },
+    {
+     "available": "13.0",
+     "doc": "Calculate duration when creating statistics.",
+     "name": "HKStatisticsOptionDuration",
+     "short": "duration",
+     "value": 64
+    }
+   ],
+   "doc": "Options for specifying which statistics to calculate\n\nWhen querying for HKStatistics objects, an options bitmask will specify which statistics will be calculated.\n\nStatistics are classified as discrete or cumulative.  If a discrete statistics option is specified for a cumulative HKQuantityType, an exception will be thrown.  If a cumulative statistics options is specified for a discrete HKQuantityType, an exception will also be thrown.",
+   "options": true
+  },
+  "HKSwimmingStrokeStyle": {
+   "available": "10.0",
+   "cases": [
+    {
+     "name": "HKSwimmingStrokeStyleUnknown",
+     "short": "unknown",
+     "value": 0
+    },
+    {
+     "name": "HKSwimmingStrokeStyleMixed",
+     "short": "mixed",
+     "value": 1
+    },
+    {
+     "name": "HKSwimmingStrokeStyleFreestyle",
+     "short": "freestyle",
+     "value": 2
+    },
+    {
+     "name": "HKSwimmingStrokeStyleBackstroke",
+     "short": "backstroke",
+     "value": 3
+    },
+    {
+     "name": "HKSwimmingStrokeStyleBreaststroke",
+     "short": "breaststroke",
+     "value": 4
+    },
+    {
+     "name": "HKSwimmingStrokeStyleButterfly",
+     "short": "butterfly",
+     "value": 5
+    },
+    {
+     "available": "16.0",
+     "name": "HKSwimmingStrokeStyleKickboard",
+     "short": "kickboard",
+     "value": 6
+    }
+   ],
+   "doc": "Represents a style of stroke used during a swimming workout.",
+   "options": false
+  },
+  "HKUpdateFrequency": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKUpdateFrequencyImmediate",
+     "short": "immediate",
+     "value": 1
+    },
+    {
+     "name": "HKUpdateFrequencyHourly",
+     "short": "hourly",
+     "value": 2
+    },
+    {
+     "name": "HKUpdateFrequencyDaily",
+     "short": "daily",
+     "value": 3
+    },
+    {
+     "name": "HKUpdateFrequencyWeekly",
+     "short": "weekly",
+     "value": 4
+    }
+   ],
+   "options": false
+  },
+  "HKUserMotionContext": {
+   "available": "16.0",
+   "cases": [
+    {
+     "name": "HKUserMotionContextNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "name": "HKUserMotionContextStationary",
+     "short": "stationary",
+     "value": 1
+    },
+    {
+     "name": "HKUserMotionContextActive",
+     "short": "active",
+     "value": 2
+    }
+   ],
+   "options": false
+  },
+  "HKVO2MaxTestType": {
+   "available": "11.0",
+   "cases": [
+    {
+     "doc": "The user was exerted to their physical limit to evaluate and measure actual VO2Max.",
+     "name": "HKVO2MaxTestTypeMaxExercise",
+     "short": "maxExercise",
+     "value": 1
+    },
+    {
+     "doc": "A specific test protocol was used to calculate and correlate a predicted VO2Max.",
+     "name": "HKVO2MaxTestTypePredictionSubMaxExercise",
+     "short": "predictionSubMaxExercise",
+     "value": 2
+    },
+    {
+     "doc": "A non-exercise equation was used based on user metrics to calculate a predicted VO2Max.",
+     "name": "HKVO2MaxTestTypePredictionNonExercise",
+     "short": "predictionNonExercise",
+     "value": 3
+    },
+    {
+     "available": "26.0",
+     "doc": "The step test protocol was used to calculate and correlate a predicted VO2Max.",
+     "name": "HKVO2MaxTestTypePredictionStepTest",
+     "short": "predictionStepTest",
+     "value": 4
+    }
+   ],
+   "doc": "Represents the test used to create a VO2 Max Sample.",
+   "options": false
+  },
+  "HKVisionEye": {
+   "available": "16.0",
+   "cases": [
+    {
+     "name": "HKVisionEyeLeft",
+     "short": "left",
+     "value": 1
+    },
+    {
+     "name": "HKVisionEyeRight",
+     "short": "right",
+     "value": 2
+    }
+   ],
+   "doc": "Represents an eye",
+   "options": false
+  },
+  "HKVisionPrescriptionType": {
+   "available": "16.0",
+   "cases": [
+    {
+     "name": "HKVisionPrescriptionTypeGlasses",
+     "short": "glasses",
+     "value": 1
+    },
+    {
+     "name": "HKVisionPrescriptionTypeContacts",
+     "short": "contacts",
+     "value": 2
+    }
+   ],
+   "doc": "Represents a vision prescription type",
+   "options": false
+  },
+  "HKWaterSalinity": {
+   "available": "17.0",
+   "cases": [
+    {
+     "name": "HKWaterSalinityFreshWater",
+     "short": "freshWater",
+     "value": 1
+    },
+    {
+     "name": "HKWaterSalinitySaltWater",
+     "short": "saltWater",
+     "value": 2
+    }
+   ],
+   "doc": "Represents the water salinity for an underwater depth or water temperature sample.\n\nThis value indicates the water salinity",
+   "options": false
+  },
+  "HKWeatherCondition": {
+   "available": "10.0",
+   "cases": [
+    {
+     "name": "HKWeatherConditionNone",
+     "short": "none",
+     "value": 0
+    },
+    {
+     "name": "HKWeatherConditionClear",
+     "short": "clear",
+     "value": 1
+    },
+    {
+     "name": "HKWeatherConditionFair",
+     "short": "fair",
+     "value": 2
+    },
+    {
+     "name": "HKWeatherConditionPartlyCloudy",
+     "short": "partlyCloudy",
+     "value": 3
+    },
+    {
+     "name": "HKWeatherConditionMostlyCloudy",
+     "short": "mostlyCloudy",
+     "value": 4
+    },
+    {
+     "name": "HKWeatherConditionCloudy",
+     "short": "cloudy",
+     "value": 5
+    },
+    {
+     "name": "HKWeatherConditionFoggy",
+     "short": "foggy",
+     "value": 6
+    },
+    {
+     "name": "HKWeatherConditionHaze",
+     "short": "haze",
+     "value": 7
+    },
+    {
+     "name": "HKWeatherConditionWindy",
+     "short": "windy",
+     "value": 8
+    },
+    {
+     "name": "HKWeatherConditionBlustery",
+     "short": "blustery",
+     "value": 9
+    },
+    {
+     "name": "HKWeatherConditionSmoky",
+     "short": "smoky",
+     "value": 10
+    },
+    {
+     "name": "HKWeatherConditionDust",
+     "short": "dust",
+     "value": 11
+    },
+    {
+     "name": "HKWeatherConditionSnow",
+     "short": "snow",
+     "value": 12
+    },
+    {
+     "name": "HKWeatherConditionHail",
+     "short": "hail",
+     "value": 13
+    },
+    {
+     "name": "HKWeatherConditionSleet",
+     "short": "sleet",
+     "value": 14
+    },
+    {
+     "name": "HKWeatherConditionFreezingDrizzle",
+     "short": "freezingDrizzle",
+     "value": 15
+    },
+    {
+     "name": "HKWeatherConditionFreezingRain",
+     "short": "freezingRain",
+     "value": 16
+    },
+    {
+     "name": "HKWeatherConditionMixedRainAndHail",
+     "short": "mixedRainAndHail",
+     "value": 17
+    },
+    {
+     "name": "HKWeatherConditionMixedRainAndSnow",
+     "short": "mixedRainAndSnow",
+     "value": 18
+    },
+    {
+     "name": "HKWeatherConditionMixedRainAndSleet",
+     "short": "mixedRainAndSleet",
+     "value": 19
+    },
+    {
+     "name": "HKWeatherConditionMixedSnowAndSleet",
+     "short": "mixedSnowAndSleet",
+     "value": 20
+    },
+    {
+     "name": "HKWeatherConditionDrizzle",
+     "short": "drizzle",
+     "value": 21
+    },
+    {
+     "name": "HKWeatherConditionScatteredShowers",
+     "short": "scatteredShowers",
+     "value": 22
+    },
+    {
+     "name": "HKWeatherConditionShowers",
+     "short": "showers",
+     "value": 23
+    },
+    {
+     "name": "HKWeatherConditionThunderstorms",
+     "short": "thunderstorms",
+     "value": 24
+    },
+    {
+     "name": "HKWeatherConditionTropicalStorm",
+     "short": "tropicalStorm",
+     "value": 25
+    },
+    {
+     "name": "HKWeatherConditionHurricane",
+     "short": "hurricane",
+     "value": 26
+    },
+    {
+     "name": "HKWeatherConditionTornado",
+     "short": "tornado",
+     "value": 27
+    }
+   ],
+   "options": false
+  },
+  "HKWheelchairUse": {
+   "available": "10.0",
+   "cases": [
+    {
+     "name": "HKWheelchairUseNotSet",
+     "short": "notSet",
+     "value": 0
+    },
+    {
+     "doc": "The user does not use a wheelchair.",
+     "name": "HKWheelchairUseNo",
+     "short": "no",
+     "value": 1
+    },
+    {
+     "doc": "The user does use a wheelchair.",
+     "name": "HKWheelchairUseYes",
+     "short": "yes",
+     "value": 2
+    }
+   ],
+   "doc": "This enumerated type is used to represent whether the user uses a wheelchair.",
+   "options": false
+  },
+  "HKWorkoutActivityType": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKWorkoutActivityTypeAmericanFootball",
+     "short": "americanFootball",
+     "value": 1
+    },
+    {
+     "name": "HKWorkoutActivityTypeArchery",
+     "short": "archery",
+     "value": 2
+    },
+    {
+     "name": "HKWorkoutActivityTypeAustralianFootball",
+     "short": "australianFootball",
+     "value": 3
+    },
+    {
+     "name": "HKWorkoutActivityTypeBadminton",
+     "short": "badminton",
+     "value": 4
+    },
+    {
+     "name": "HKWorkoutActivityTypeBaseball",
+     "short": "baseball",
+     "value": 5
+    },
+    {
+     "name": "HKWorkoutActivityTypeBasketball",
+     "short": "basketball",
+     "value": 6
+    },
+    {
+     "name": "HKWorkoutActivityTypeBowling",
+     "short": "bowling",
+     "value": 7
+    },
+    {
+     "doc": "See also HKWorkoutActivityTypeKickboxing.",
+     "name": "HKWorkoutActivityTypeBoxing",
+     "short": "boxing",
+     "value": 8
+    },
+    {
+     "name": "HKWorkoutActivityTypeClimbing",
+     "short": "climbing",
+     "value": 9
+    },
+    {
+     "name": "HKWorkoutActivityTypeCricket",
+     "short": "cricket",
+     "value": 10
+    },
+    {
+     "doc": "Any mix of cardio and/or strength training. See also HKWorkoutActivityTypeCoreTraining and HKWorkoutActivityTypeFlexibility.",
+     "name": "HKWorkoutActivityTypeCrossTraining",
+     "short": "crossTraining",
+     "value": 11
+    },
+    {
+     "name": "HKWorkoutActivityTypeCurling",
+     "short": "curling",
+     "value": 12
+    },
+    {
+     "name": "HKWorkoutActivityTypeCycling",
+     "short": "cycling",
+     "value": 13
+    },
+    {
+     "deprecated": true,
+     "doc": "This enum remains available to access older data.",
+     "name": "HKWorkoutActivityTypeDance",
+     "short": "dance",
+     "value": 14
+    },
+    {
+     "deprecated": true,
+     "doc": "This enum remains available to access older data.",
+     "name": "HKWorkoutActivityTypeDanceInspiredTraining",
+     "short": "danceInspiredTraining",
+     "value": 15
+    },
+    {
+     "name": "HKWorkoutActivityTypeElliptical",
+     "short": "elliptical",
+     "value": 16
+    },
+    {
+     "doc": "Polo, Horse Racing, Horse Riding, etc.",
+     "name": "HKWorkoutActivityTypeEquestrianSports",
+     "short": "equestrianSports",
+     "value": 17
+    },
+    {
+     "name": "HKWorkoutActivityTypeFencing",
+     "short": "fencing",
+     "value": 18
+    },
+    {
+     "name": "HKWorkoutActivityTypeFishing",
+     "short": "fishing",
+     "value": 19
+    },
+    {
+     "doc": "Primarily free weights and/or body weight and/or accessories",
+     "name": "HKWorkoutActivityTypeFunctionalStrengthTraining",
+     "short": "functionalStrengthTraining",
+     "value": 20
+    },
+    {
+     "name": "HKWorkoutActivityTypeGolf",
+     "short": "golf",
+     "value": 21
+    },
+    {
+     "name": "HKWorkoutActivityTypeGymnastics",
+     "short": "gymnastics",
+     "value": 22
+    },
+    {
+     "name": "HKWorkoutActivityTypeHandball",
+     "short": "handball",
+     "value": 23
+    },
+    {
+     "name": "HKWorkoutActivityTypeHiking",
+     "short": "hiking",
+     "value": 24
+    },
+    {
+     "doc": "Ice Hockey, Field Hockey, etc.",
+     "name": "HKWorkoutActivityTypeHockey",
+     "short": "hockey",
+     "value": 25
+    },
+    {
+     "name": "HKWorkoutActivityTypeHunting",
+     "short": "hunting",
+     "value": 26
+    },
+    {
+     "name": "HKWorkoutActivityTypeLacrosse",
+     "short": "lacrosse",
+     "value": 27
+    },
+    {
+     "name": "HKWorkoutActivityTypeMartialArts",
+     "short": "martialArts",
+     "value": 28
+    },
+    {
+     "doc": "Qigong, meditation, etc.",
+     "name": "HKWorkoutActivityTypeMindAndBody",
+     "short": "mindAndBody",
+     "value": 29
+    },
+    {
+     "deprecated": true,
+     "doc": "This enum remains available to access older data.",
+     "name": "HKWorkoutActivityTypeMixedMetabolicCardioTraining",
+     "short": "mixedMetabolicCardioTraining",
+     "value": 30
+    },
+    {
+     "doc": "Canoeing, Kayaking, Outrigger, Stand Up Paddle Board, etc.",
+     "name": "HKWorkoutActivityTypePaddleSports",
+     "short": "paddleSports",
+     "value": 31
+    },
+    {
+     "doc": "Dodge Ball, Hopscotch, Tetherball, Jungle Gym, etc.",
+     "name": "HKWorkoutActivityTypePlay",
+     "short": "play",
+     "value": 32
+    },
+    {
+     "doc": "Therapeutic activities like foam rolling, self massage and flexibility moves.",
+     "name": "HKWorkoutActivityTypePreparationAndRecovery",
+     "short": "preparationAndRecovery",
+     "value": 33
+    },
+    {
+     "name": "HKWorkoutActivityTypeRacquetball",
+     "short": "racquetball",
+     "value": 34
+    },
+    {
+     "name": "HKWorkoutActivityTypeRowing",
+     "short": "rowing",
+     "value": 35
+    },
+    {
+     "name": "HKWorkoutActivityTypeRugby",
+     "short": "rugby",
+     "value": 36
+    },
+    {
+     "name": "HKWorkoutActivityTypeRunning",
+     "short": "running",
+     "value": 37
+    },
+    {
+     "name": "HKWorkoutActivityTypeSailing",
+     "short": "sailing",
+     "value": 38
+    },
+    {
+     "doc": "Ice Skating, Speed Skating, Inline Skating, Skateboarding, etc.",
+     "name": "HKWorkoutActivityTypeSkatingSports",
+     "short": "skatingSports",
+     "value": 39
+    },
+    {
+     "doc": "Sledding, Snowmobiling, Building a Snowman, etc. See also HKWorkoutActivityTypeCrossCountrySkiing, HKWorkoutActivityTypeSnowboarding, and HKWorkoutActivityTypeDownhillSkiing.",
+     "name": "HKWorkoutActivityTypeSnowSports",
+     "short": "snowSports",
+     "value": 40
+    },
+    {
+     "name": "HKWorkoutActivityTypeSoccer",
+     "short": "soccer",
+     "value": 41
+    },
+    {
+     "name": "HKWorkoutActivityTypeSoftball",
+     "short": "softball",
+     "value": 42
+    },
+    {
+     "name": "HKWorkoutActivityTypeSquash",
+     "short": "squash",
+     "value": 43
+    },
+    {
+     "doc": "See also HKWorkoutActivityTypeStairs and HKWorkoutActivityTypeStepTraining.",
+     "name": "HKWorkoutActivityTypeStairClimbing",
+     "short": "stairClimbing",
+     "value": 44
+    },
+    {
+     "doc": "Traditional Surfing, Kite Surfing, Wind Surfing, etc.",
+     "name": "HKWorkoutActivityTypeSurfingSports",
+     "short": "surfingSports",
+     "value": 45
+    },
+    {
+     "name": "HKWorkoutActivityTypeSwimming",
+     "short": "swimming",
+     "value": 46
+    },
+    {
+     "name": "HKWorkoutActivityTypeTableTennis",
+     "short": "tableTennis",
+     "value": 47
+    },
+    {
+     "name": "HKWorkoutActivityTypeTennis",
+     "short": "tennis",
+     "value": 48
+    },
+    {
+     "doc": "Shot Put, Javelin, Pole Vaulting, etc.",
+     "name": "HKWorkoutActivityTypeTrackAndField",
+     "short": "trackAndField",
+     "value": 49
+    },
+    {
+     "doc": "Primarily machines and/or free weights",
+     "name": "HKWorkoutActivityTypeTraditionalStrengthTraining",
+     "short": "traditionalStrengthTraining",
+     "value": 50
+    },
+    {
+     "name": "HKWorkoutActivityTypeVolleyball",
+     "short": "volleyball",
+     "value": 51
+    },
+    {
+     "name": "HKWorkoutActivityTypeWalking",
+     "short": "walking",
+     "value": 52
+    },
+    {
+     "name": "HKWorkoutActivityTypeWaterFitness",
+     "short": "waterFitness",
+     "value": 53
+    },
+    {
+     "name": "HKWorkoutActivityTypeWaterPolo",
+     "short": "waterPolo",
+     "value": 54
+    },
+    {
+     "doc": "Water Skiing, Wake Boarding, etc.",
+     "name": "HKWorkoutActivityTypeWaterSports",
+     "short": "waterSports",
+     "value": 55
+    },
+    {
+     "name": "HKWorkoutActivityTypeWrestling",
+     "short": "wrestling",
+     "value": 56
+    },
+    {
+     "name": "HKWorkoutActivityTypeYoga",
+     "short": "yoga",
+     "value": 57
+    },
+    {
+     "available": "10.0",
+     "doc": "HKWorkoutActivityTypeDanceInspiredTraining",
+     "name": "HKWorkoutActivityTypeBarre",
+     "short": "barre",
+     "value": 58
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeCoreTraining",
+     "short": "coreTraining",
+     "value": 59
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeCrossCountrySkiing",
+     "short": "crossCountrySkiing",
+     "value": 60
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeDownhillSkiing",
+     "short": "downhillSkiing",
+     "value": 61
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeFlexibility",
+     "short": "flexibility",
+     "value": 62
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeHighIntensityIntervalTraining",
+     "short": "highIntensityIntervalTraining",
+     "value": 63
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeJumpRope",
+     "short": "jumpRope",
+     "value": 64
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeKickboxing",
+     "short": "kickboxing",
+     "value": 65
+    },
+    {
+     "available": "10.0",
+     "doc": "HKWorkoutActivityTypeDanceInspiredTraining",
+     "name": "HKWorkoutActivityTypePilates",
+     "short": "pilates",
+     "value": 66
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeSnowboarding",
+     "short": "snowboarding",
+     "value": 67
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeStairs",
+     "short": "stairs",
+     "value": 68
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeStepTraining",
+     "short": "stepTraining",
+     "value": 69
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeWheelchairWalkPace",
+     "short": "wheelchairWalkPace",
+     "value": 70
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutActivityTypeWheelchairRunPace",
+     "short": "wheelchairRunPace",
+     "value": 71
+    },
+    {
+     "available": "11.0",
+     "name": "HKWorkoutActivityTypeTaiChi",
+     "short": "taiChi",
+     "value": 72
+    },
+    {
+     "available": "11.0",
+     "doc": "HKWorkoutActivityTypeMixedMetabolicCardioTraining",
+     "name": "HKWorkoutActivityTypeMixedCardio",
+     "short": "mixedCardio",
+     "value": 73
+    },
+    {
+     "available": "11.0",
+     "name": "HKWorkoutActivityTypeHandCycling",
+     "short": "handCycling",
+     "value": 74
+    },
+    {
+     "available": "13.0",
+     "name": "HKWorkoutActivityTypeDiscSports",
+     "short": "discSports",
+     "value": 75
+    },
+    {
+     "available": "13.0",
+     "name": "HKWorkoutActivityTypeFitnessGaming",
+     "short": "fitnessGaming",
+     "value": 76
+    },
+    {
+     "available": "14.0",
+     "name": "HKWorkoutActivityTypeCardioDance",
+     "short": "cardioDance",
+     "value": 77
+    },
+    {
+     "available": "14.0",
+     "doc": "Dances done in social settings like swing, salsa and folk dances from different world regions.",
+     "name": "HKWorkoutActivityTypeSocialDance",
+     "short": "socialDance",
+     "value": 78
+    },
+    {
+     "available": "14.0",
+     "name": "HKWorkoutActivityTypePickleball",
+     "short": "pickleball",
+     "value": 79
+    },
+    {
+     "available": "14.0",
+     "doc": "Low intensity stretching and mobility exercises following a more vigorous workout type",
+     "name": "HKWorkoutActivityTypeCooldown",
+     "short": "cooldown",
+     "value": 80
+    },
+    {
+     "available": "16.0",
+     "name": "HKWorkoutActivityTypeSwimBikeRun",
+     "short": "swimBikeRun",
+     "value": 82
+    },
+    {
+     "available": "16.0",
+     "name": "HKWorkoutActivityTypeTransition",
+     "short": "transition",
+     "value": 83
+    },
+    {
+     "available": "17.0",
+     "name": "HKWorkoutActivityTypeUnderwaterDiving",
+     "short": "underwaterDiving",
+     "value": 84
+    },
+    {
+     "name": "HKWorkoutActivityTypeOther",
+     "short": "other",
+     "value": 3000
+    }
+   ],
+   "doc": "Represents a particular type of workout or exercise",
+   "options": false
+  },
+  "HKWorkoutEffortRelationshipQueryOptions": {
+   "available": "18.0",
+   "cases": [
+    {
+     "name": "HKWorkoutEffortRelationshipQueryOptionsDefault",
+     "short": "default",
+     "value": 0
+    },
+    {
+     "doc": "The most relevant sample will be returned",
+     "name": "HKWorkoutEffortRelationshipQueryOptionsMostRelevant",
+     "short": "mostRelevant",
+     "value": 1
+    }
+   ],
+   "doc": "Option for specifying which workout effort relationship sample(s) to retrieve",
+   "options": false
+  },
+  "HKWorkoutEventType": {
+   "available": "8.0",
+   "cases": [
+    {
+     "name": "HKWorkoutEventTypePause",
+     "short": "pause",
+     "value": 1
+    },
+    {
+     "name": "HKWorkoutEventTypeResume",
+     "short": "resume",
+     "value": 2
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutEventTypeLap",
+     "short": "lap",
+     "value": 3
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutEventTypeMarker",
+     "short": "marker",
+     "value": 4
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutEventTypeMotionPaused",
+     "short": "motionPaused",
+     "value": 5
+    },
+    {
+     "available": "10.0",
+     "name": "HKWorkoutEventTypeMotionResumed",
+     "short": "motionResumed",
+     "value": 6
+    },
+    {
+     "available": "11.0",
+     "name": "HKWorkoutEventTypeSegment",
+     "short": "segment",
+     "value": 7
+    },
+    {
+     "available": "11.0",
+     "name": "HKWorkoutEventTypePauseOrResumeRequest",
+     "short": "pauseOrResumeRequest",
+     "value": 8
+    }
+   ],
+   "options": false
+  },
+  "HKWorkoutSessionLocationType": {
+   "available": "10.0",
+   "cases": [
+    {
+     "name": "HKWorkoutSessionLocationTypeUnknown",
+     "short": "unknown",
+     "value": 1
+    },
+    {
+     "name": "HKWorkoutSessionLocationTypeIndoor",
+     "short": "indoor",
+     "value": 2
+    },
+    {
+     "name": "HKWorkoutSessionLocationTypeOutdoor",
+     "short": "outdoor",
+     "value": 3
+    }
+   ],
+   "doc": "This enumerated type is used to represent the location type of a workout session.\n\nThis value represents whether a workout is performed indoors or outdoors.",
+   "options": false
+  },
+  "HKWorkoutSessionState": {
+   "available": "17.0",
+   "cases": [
+    {
+     "name": "HKWorkoutSessionStateNotStarted",
+     "short": "notStarted",
+     "value": 1
+    },
+    {
+     "name": "HKWorkoutSessionStateRunning",
+     "short": "running",
+     "value": 2
+    },
+    {
+     "name": "HKWorkoutSessionStateEnded",
+     "short": "ended",
+     "value": 3
+    },
+    {
+     "name": "HKWorkoutSessionStatePaused",
+     "short": "paused",
+     "value": 4
+    },
+    {
+     "name": "HKWorkoutSessionStatePrepared",
+     "short": "prepared",
+     "value": 5
+    },
+    {
+     "name": "HKWorkoutSessionStateStopped",
+     "short": "stopped",
+     "value": 6
+    }
+   ],
+   "doc": "This enumerated type is used to represent the state of a workout session.",
+   "options": false
+  },
+  "HKWorkoutSessionType": {
+   "available": "17.0",
+   "cases": [
+    {
+     "doc": "Represents a workout session running locally on the current device.",
+     "name": "HKWorkoutSessionTypePrimary",
+     "short": "primary",
+     "value": 0
+    },
+    {
+     "doc": "Represents a workout session being mirrored from a different device.",
+     "name": "HKWorkoutSessionTypeMirrored",
+     "short": "mirrored",
+     "value": 1
+    }
+   ],
+   "doc": "This enumerated type is used to represent the type of a workout session.",
+   "options": false
+  },
+  "HKWorkoutSwimmingLocationType": {
+   "available": "10.0",
+   "cases": [
+    {
+     "name": "HKWorkoutSwimmingLocationTypeUnknown",
+     "short": "unknown",
+     "value": 0
+    },
+    {
+     "name": "HKWorkoutSwimmingLocationTypePool",
+     "short": "pool",
+     "value": 1
+    },
+    {
+     "name": "HKWorkoutSwimmingLocationTypeOpenWater",
+     "short": "openWater",
+     "value": 2
+    }
+   ],
+   "doc": "This enumerated type is used to represent the location type of a swimming workout.\n\nThis value indicates whether a swimming workout was performed in a pool or open water.",
+   "options": false
+  }
+ },
+ "metadataKeys": {
+  "HKActivityType": {
+   "available": "17.0",
+   "constant": "HKMetadataKeyActivityType",
+   "doc": "Represents the activity type related to the sample\n\nThe expected value type is an NSNumber containing a HKWorkoutActivityType value.",
+   "valueType": "NSNumber",
+   "values": "HKWorkoutActivityType"
+  },
+  "HKAlgorithmVersion": {
+   "available": "15.0",
+   "constant": "HKMetadataKeyAlgorithmVersion",
+   "doc": "The version of the algorithm used to generate the sample.\n\nThe key for an NSNumber containing an NSInteger indicating the version of the algorithm used to generate the sample.",
+   "valueType": "NSNumber"
+  },
+  "HKAlpineSlopeGrade": {
+   "available": "11.2",
+   "constant": "HKMetadataKeyAlpineSlopeGrade",
+   "doc": "Represents the grade of a ski run.\n\nAlpine slope grade is measured in percent where 100% grade is a 45 degree slope.\n\nThe expected value type is an HKQuantity object compatible with percent unit. This key may be set on quantity samples of type HKQuantityTypeIdentifierDistanceDownhillSnowSports or a workout segment representing a skiing run.",
+   "valueType": "HKQuantity"
+  },
+  "HKAverageMETs": {
+   "available": "13.0",
+   "constant": "HKMetadataKeyAverageMETs",
+   "doc": "Represents the average METs, or Metabolic Equivalent of Task during a workout.\n\nThe expected value type is an HKQuantity expressed in a METs (kcal/(kg*hr)) unit. This key may be set on an HKWorkout object to represent the average workout intensity represented as METs over the entire workout duration.",
+   "valueType": "HKQuantity"
+  },
+  "HKAverageSpeed": {
+   "available": "11.2",
+   "constant": "HKMetadataKeyAverageSpeed",
+   "doc": "Represents the average speed for a workout segment or distance sample.\n\nThis represents the average speed when moving so it may not match the value of distance/time for a distance sample.\n\nThe expected value type is an HKQuantity object compatible with a speed unit (e.g. m/s). This key may be set on quantity samples of type HKQuantityTypeIdentifierDistanceDownhillSnowSports or a workout segment representing a skiing run.",
+   "valueType": "HKQuantity"
+  },
+  "HKBloodGlucoseMealTime": {
+   "available": "11.0",
+   "constant": "HKMetadataKeyBloodGlucoseMealTime",
+   "doc": "Indicates the relative timing of a blood glucose reading to a meal.\n\nThis timing, as well as other factors like meal composition, can be used by medical professionals to determine the acceptable value range for a blood glucose reading. For use cases requiring the capture of precise timing and composition information, developers should record additional dietary samples, such as HKQuantityTypeIdentifierDietaryCarbohydrates. The expected value type is an NSNumber containing a HKBloodGlucoseMealTime value.",
+   "valueType": "NSNumber",
+   "values": "HKBloodGlucoseMealTime"
+  },
+  "HKBodyTemperatureSensorLocation": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyBodyTemperatureSensorLocation",
+   "doc": "Represents the location where a particular body temperature reading was taken.\n\nThe expected value type is an NSNumber containing a HKBodyTemperatureSensorLocation value.",
+   "valueType": "NSNumber",
+   "values": "HKBodyTemperatureSensorLocation"
+  },
+  "HKCoachedWorkout": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyCoachedWorkout",
+   "doc": "Represents whether or not a workout was performed with a coach or personal trainer.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKCrossTrainerDistance": {
+   "available": "12.0",
+   "constant": "HKMetadataKeyCrossTrainerDistance",
+   "doc": "Represents the distance covered during a cross trainer workout.\n\nThe expected value type is an HKQuantity object compatible with a length unit. This key may be set on an HKWorkout object to represent the distance covered during a cross trainer workout.",
+   "valueType": "HKQuantity"
+  },
+  "HKCyclingCyclingFunctionalThresholdPowerTestType": {
+   "available": "17.0",
+   "constant": "HKMetadataKeyCyclingFunctionalThresholdPowerTestType",
+   "doc": "Represents the test used to determine a Cycling Functional Threshold Power value.\n\nThe expected value type is an NSNumber containing a HKCyclingFunctionalThresholdPowerTestType value.",
+   "valueType": "NSNumber",
+   "values": "HKCyclingFunctionalThresholdPowerTestType"
+  },
+  "HKDateOfEarliestDataUsedForEstimate": {
+   "available": "15.0",
+   "constant": "HKMetadataKeyDateOfEarliestDataUsedForEstimate",
+   "doc": "Represents how far back an estimation algorithm incorporated data from.\n\nThe expected value is an NSDate indicating the earliest date of data used to produce an estimated value for an HKSample.",
+   "valueType": "NSDate"
+  },
+  "HKDeviceManufacturerName": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyDeviceManufacturerName",
+   "doc": "Represents the name of the manufacturer of the device that took the reading.\n\nThe expected value type is NSString.\n\n* Note that the use of this key is now discouraged in favor of the HKDevice class.",
+   "valueType": "NSString"
+  },
+  "HKDeviceName": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyDeviceName",
+   "doc": "Represents the name of the device that took the reading.\n\nThe expected value type is NSString.\n\n* Note that the use of this key is now discouraged in favor of the HKDevice class.",
+   "valueType": "NSString"
+  },
+  "HKDeviceSerialNumber": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyDeviceSerialNumber",
+   "doc": "Represents the serial number of the device that created the HKObject.\n\nThe expected value type is NSString.",
+   "valueType": "NSString"
+  },
+  "HKDigitalSignature": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyDigitalSignature",
+   "doc": "Represents a digital signature validating the origin of an HKObject's value.\n\nIntended to provide data integrity for sample data produced by trusted (tamper resistant) measuring devices. The digital signature format should be CMS (Cryptographic Message Syntax specified in IETF RFC 5652). It should be a “Signed-data” type signature containing the data items to be signed (e.g., timestamp, value, etc.) using ASN.1 encoding with DER (Distinguished Encoding Rules). The entire enveloping signature should be further encoded using base64. Recommended digest is SHA256, and recommended cipher is FIPS PUB 186-4 Digital Signature Standard Elliptic Curve P-256. See documentation for details."
+  },
+  "HKElevationAscended": {
+   "available": "11.2",
+   "constant": "HKMetadataKeyElevationAscended",
+   "doc": "Represents the cumulative elevation ascent during a workout.\n\nThe expected value type is an HKQuantity object compatible with length unit. This key may be set on a workout, workout segments or distance samples.",
+   "valueType": "HKQuantity"
+  },
+  "HKElevationDescended": {
+   "available": "11.2",
+   "constant": "HKMetadataKeyElevationDescended",
+   "doc": "Represents the cumulative elevation descent during a workout.\n\nThe expected value type is an HKQuantity object compatible with length unit. This key may be set on a workout, workout segments or distance samples.",
+   "valueType": "HKQuantity"
+  },
+  "HKExternalUUID": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyExternalUUID",
+   "doc": "Represents a unique identifier for an HKObject that is set by its source. Uniqueness of objects with the same value of this key is not enforced by HealthKit.\n\nThe expected value type is NSString.",
+   "valueType": "NSString"
+  },
+  "HKFitnessMachineDuration": {
+   "available": "12.0",
+   "constant": "HKMetadataKeyFitnessMachineDuration",
+   "doc": "Represents the workout duration as displayed by a GymKit connected fitness machine.\n\nThe expected value type is an HKQuantity object compatible with a time unit. This key may be set on an HKWorkout object to represent the duration of the workout as displayed by a GymKit connected fitness machine.",
+   "valueType": "HKQuantity"
+  },
+  "HKFoodType": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyFoodType",
+   "doc": "Represents the type of food that was consumed when creating an HKObject.\n\nThis should be a short string representing the type of food, such as 'Banana'. The expected value type is NSString.",
+   "valueType": "NSString"
+  },
+  "HKGroupFitness": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyGroupFitness",
+   "doc": "Represents whether or not a workout was performed as part of a group fitness class.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKHeartRateEventThreshold": {
+   "available": "12.2",
+   "constant": "HKMetadataKeyHeartRateEventThreshold",
+   "doc": "Represents the threshold heart rate that triggered a heart rate event.\n\nThe expected value is an HKQuantity object with a compatible unit (e.g. count/min). This key will be set on heart rate event samples of type HKCategoryTypeIdentifierHighHeartRateEvent and HKCategoryTypeIdentifierLowHeartRateEvent.",
+   "valueType": "HKQuantity"
+  },
+  "HKHeartRateSensorLocation": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyHeartRateSensorLocation",
+   "doc": "Represents the location where a particular heart rate reading was taken.\n\nThe expected value type is an NSNumber containing a HKHeartRateSensorLocation value.",
+   "valueType": "NSNumber",
+   "values": "HKHeartRateSensorLocation"
+  },
+  "HKIndoorBikeDistance": {
+   "available": "12.0",
+   "constant": "HKMetadataKeyIndoorBikeDistance",
+   "doc": "Represents the distance covered during an indoor bike workout.\n\nThe expected value type is an HKQuantity object compatible with a length unit. This key may be set on an HKWorkout object to represent the distance covered during an indoor bike workout.",
+   "valueType": "HKQuantity"
+  },
+  "HKIndoorWorkout": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyIndoorWorkout",
+   "doc": "Represents whether or not a workout was performed indoors as opposed to outdoors.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKInsulinDeliveryReason": {
+   "available": "11.0",
+   "constant": "HKMetadataKeyInsulinDeliveryReason",
+   "doc": "Represents the medical reason for the delivery of an insulin dose. This is a required metadata key for samples of type HKQuantityTypeIdentifierInsulinDelivery.\n\nThe expected value type is an NSNumber containing a HKInsulinDeliveryReason value.",
+   "valueType": "NSNumber",
+   "values": "HKInsulinDeliveryReason"
+  },
+  "HKLapLength": {
+   "available": "10.0",
+   "constant": "HKMetadataKeyLapLength",
+   "doc": "Represents the length of a lap recorded during a workout.\n\nThe expected value type is an HKQuantity object compatible with a length unit. This key may be set on an HKWorkout object to represent the length of a lap.",
+   "valueType": "HKQuantity"
+  },
+  "HKLowCardioFitnessEventThreshold": {
+   "available": "14.3",
+   "constant": "HKMetadataKeyLowCardioFitnessEventThreshold",
+   "doc": "Can be used to store a snapshot of the threshold used to classify VO2Max values as \"low\"\n\nThis key should be used to store an HKQuantity, with a unit of `ml/kg·min`, representing the low fitness threshold.",
+   "valueType": "HKQuantity"
+  },
+  "HKMaximumSpeed": {
+   "available": "11.2",
+   "constant": "HKMetadataKeyMaximumSpeed",
+   "doc": "Represents the maximum speed for a workout segment or distance sample.\n\nThe expected value type is an HKQuantity object compatible with a speed unit (e.g. m/s). This key may be set on quantity samples of type HKQuantityTypeIdentifierDistanceDownhillSnowSports or a workout segment representing a skiing run.",
+   "valueType": "HKQuantity"
+  },
+  "HKMenstrualCycleStart": {
+   "available": "9.0",
+   "constant": "HKMetadataKeyMenstrualCycleStart",
+   "doc": "Indicates whether or not the sample represents the start of a menstrual cycle. This is a required metadata key for category samples of type HKCategoryTypeIdentifierMenstrualFlow.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKMetadataKeyAppleDeviceCalibrated": {
+   "available": "14.0",
+   "constant": "HKMetadataKeyAppleDeviceCalibrated",
+   "doc": "Represents the calibration status of the devices used to generate this sample.\n\nThe expected value is a boolean NSNumber indicating whether the sample value was estimated using a sufficient set of device calibration data. The calibration status of a device may vary per data type. This key is read-only.",
+   "valueType": "NSNumber"
+  },
+  "HKMetadataKeyAppleECGAlgorithmVersion": {
+   "available": "14.0",
+   "constant": "HKMetadataKeyAppleECGAlgorithmVersion",
+   "doc": "Represents the ECG algorithm version that was used to generate a particular HKElectrocardiogram.\n\nThe expected value type is an an NSNumber containing a HKAppleECGAlgorithmVersion value.",
+   "valueType": "NSNumber",
+   "values": "HKAppleECGAlgorithmVersion"
+  },
+  "HKMetadataKeyAppleFitnessPlusCatalogIdentifier": {
+   "available": "18.2",
+   "constant": "HKMetadataKeyAppleFitnessPlusCatalogIdentifier",
+   "doc": "Contains the catalog identifier of the Fitness+ workout.\n\nThis key only exists if the workout was completed in Fitness+. The expected value type is an NSString containing the Fitness+ catalog identifier.",
+   "valueType": "NSString"
+  },
+  "HKMetadataKeyAppleFitnessPlusSession": {
+   "available": "17.0",
+   "constant": "HKMetadataKeyAppleFitnessPlusSession",
+   "doc": "Represents whether or not a workout is a Fitness+ workout.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKMetadataKeyAudioExposureDuration": {
+   "available": "14.2",
+   "constant": "HKMetadataKeyAudioExposureDuration",
+   "doc": "Represents the duration of time that is covered by audio samples.\n\nThe expected value type is an HKQuantity object compatible with a time unit. This key may be set on headphone audio exposure event samples to indicate the duration of time that the user was actually exposed to audio through their headphones.",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyAudioExposureLevel": {
+   "available": "13.0",
+   "constant": "HKMetadataKeyAudioExposureLevel",
+   "doc": "Represents the audio level associated with an audio event.\n\nThe expected value is an HKQuantity whose value is the audio level associated with the event measured in dBASPL units.",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyBarometricPressure": {
+   "available": "14.0",
+   "constant": "HKMetadataKeyBarometricPressure",
+   "doc": "Represents the barometric pressure recorded at the time of a sample.\n\nThe expected value type is an HKQuantity representing a value in units of pressure (atmospheres, pascals, millimeters of Mercury).",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyDevicePlacementSide": {
+   "available": "14.0",
+   "constant": "HKMetadataKeyDevicePlacementSide",
+   "doc": "Represents the detected placement of the device during the bout of walking\n\nThe expected value type is an NSNumber containing a HKDevicePlacementSide value.  This key is expected to be written for Walking Aymmetry Percentage.",
+   "valueType": "NSNumber",
+   "values": "HKDevicePlacementSide"
+  },
+  "HKMetadataKeyGlassesPrescriptionDescription": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyGlassesPrescriptionDescription",
+   "doc": "Represents the description that may be associated with a HKGlassesPrescription.\n\nGlasses are often customized for different purposes like reading or distance. Prescriptions received by an eye care professional can provide different ocular functions. Users may also customize their glasses for different scenarios. The value of the metadata is a NSString that describes the purpose of a HKGlassesPrescription.",
+   "valueType": "NSString"
+  },
+  "HKMetadataKeyHeadphoneGain": {
+   "available": "16.4",
+   "constant": "HKMetadataKeyHeadphoneGain",
+   "doc": "Represents the headphone gain associated with a Headphone audio exposure event.\n\nThe expected value is an HKQuantity whose value is the gain associated with the event measured in decibels in A-weighted Sound Pressure Level units.",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyHeartRateMotionContext": {
+   "available": "11.0",
+   "constant": "HKMetadataKeyHeartRateMotionContext",
+   "doc": "Represents the context in which a particular heart rate reading was taken.\n\nThe expected value type is an NSNumber containing a HKHeartRateMotionContext value. The value is active (HKHeartRateMotionContextActive) if the user is in motion or working out, sedentary if the user is still (HKHeartRateMotionContextSedentary), or not set (HKHeartRateMotionContextNotSet) otherwise.",
+   "valueType": "NSNumber",
+   "values": "HKHeartRateMotionContext"
+  },
+  "HKMetadataKeyHeartRateRecoveryActivityDuration": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyHeartRateRecoveryActivityDuration",
+   "doc": "Represents the duration of activity which preceded a Heart Rate Recovery value\n\nThe expected value type is an HKQuantity object compatible with a time unit.",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyHeartRateRecoveryActivityType": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyHeartRateRecoveryActivityType",
+   "doc": "Represents the activity which preceded a Heart Rate Recovery value\n\nThe expected value type is an NSNumber containing a HKWorkoutActivityType value.",
+   "valueType": "NSNumber",
+   "values": "HKWorkoutActivityType"
+  },
+  "HKMetadataKeyHeartRateRecoveryMaxObservedRecoveryHeartRate": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyHeartRateRecoveryMaxObservedRecoveryHeartRate",
+   "doc": "Represents the maximum heart rate observed during the corresponding Heart Rate Recovery sample interval\n\nThe expected value type is an HKQuantity object compatible with \"count/min\" unit (eg \"BPM\").",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyHeartRateRecoveryTestType": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyHeartRateRecoveryTestType",
+   "doc": "Represents the test used to determine a Heart Rate Recovery value\n\nThe expected value type is an NSNumber containing a HKHeartRateRecoveryTestType value.",
+   "valueType": "NSNumber",
+   "values": "HKHeartRateRecoveryTestType"
+  },
+  "HKMetadataKeyMaximumLightIntensity": {
+   "available": "17.0",
+   "constant": "HKMetadataKeyMaximumLightIntensity",
+   "doc": "Represents maximum intensity of light for an outdoor time sample.\n\nThe expected value type is an HKQuantity expressed in HKUnit Lux.",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeyQuantityClampedToLowerBound": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyQuantityClampedToLowerBound",
+   "doc": "Indicates the quantity was clamped to a lower bound.\n\nValue is a BOOL indicating whether or not the quantity value in the sample has been clamped to some lower bound",
+   "valueType": "NSNumber"
+  },
+  "HKMetadataKeyQuantityClampedToUpperBound": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyQuantityClampedToUpperBound",
+   "doc": "Indicates the quantity was clamped to an upper bound.\n\nValue is a BOOL indicating whether or not the quantity value in the sample has been clamped to some upper bound",
+   "valueType": "NSNumber"
+  },
+  "HKMetadataKeySessionEstimate": {
+   "available": "16.0",
+   "constant": "HKMetadataKeySessionEstimate",
+   "doc": "Represents a per-session estimate prior to longitudinal smoothing applied to the value stored in the associated HKQuantitySample.\n\nThe expected value type is an HKQuantity object with a unit compatible with the associated HKQuantitySample.",
+   "valueType": "HKQuantity"
+  },
+  "HKMetadataKeySyncIdentifier": {
+   "available": "11.0",
+   "constant": "HKMetadataKeySyncIdentifier",
+   "doc": "Represents an identifier for an HKObject that is set by its source and is used by HealthKit to uniquely identify an object.\n\nSaving a HKObject with a HKMetadataKeySyncIdentifier will replace an existing HKObject with the same HKMetadataKeySyncIdentifier value if the new HKObject has a greater HKMetadataKeySyncVersion. The new sample will be added to all HKWorkouts or HKCorrelations containing the replaced sample. HKMetadataKeySyncVersion must be provided if HKMetadataKeySyncIdentifier is provided. The expected value type is NSString.",
+   "valueType": "NSString"
+  },
+  "HKMetadataKeySyncVersion": {
+   "available": "11.0",
+   "constant": "HKMetadataKeySyncVersion",
+   "doc": "Represents the version of the HKObject that is set by its source and is used by HealthKit to identify an object's version.\n\nHKMetadataKeySyncVersion may not be provided if HKMetadataKeySyncIdentifier is not provided. The expected value type is NSNumber.",
+   "valueType": "NSNumber"
+  },
+  "HKMetadataKeyUserMotionContext": {
+   "available": "16.0",
+   "constant": "HKMetadataKeyUserMotionContext",
+   "doc": "Represents the user's motion when a particular sample was taken.\n\nThe expected value type is an NSNumber containing a HKUserMotionContext value. The value is active (HKUserMotionContextActive) if the user is in motion or working out, stationary if the user is still (HKUserMotionContextStationary), or not set (HKUserMotionContextNotSet) otherwise.",
+   "valueType": "NSNumber",
+   "values": "HKUserMotionContext"
+  },
+  "HKMetadataKeyWaterSalinity": {
+   "available": "17.0",
+   "constant": "HKMetadataKeyWaterSalinity",
+   "doc": "Represents the water salinity for an underwater depth or water temperature sample.\n\nThe expected value type is an NSNumber containing a HKWaterSalinity value.",
+   "valueType": "NSNumber",
+   "values": "HKWaterSalinity"
+  },
+  "HKPhysicalEffortEstimationType": {
+   "available": "17.0",
+   "constant": "HKMetadataKeyPhysicalEffortEstimationType",
+   "doc": "Represents the estimation type used to create the Physical Effort Sample\n\nThe expected value type is an NSNumber containing a HKPhysicalEffortEstimationType value.",
+   "valueType": "NSNumber",
+   "values": "HKPhysicalEffortEstimationType"
+  },
+  "HKReferenceRangeLowerLimit": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyReferenceRangeLowerLimit",
+   "doc": "Represents the lower limit of the reference range for a lab result.\n\nThe expected value type is an NSNumber.",
+   "valueType": "NSNumber"
+  },
+  "HKReferenceRangeUpperLimit": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyReferenceRangeUpperLimit",
+   "doc": "Represents the upper limit of the reference range for a lab result.\n\nThe expected value type is an NSNumber.",
+   "valueType": "NSNumber"
+  },
+  "HKSWOLFScore": {
+   "available": "16.0",
+   "constant": "HKMetadataKeySWOLFScore",
+   "doc": "Represents sum of strokes per length and time for the length. Calculated for each lap event and segment event during swimming workout.\n\nThe expected value type is an NSNumber containing a score. This key may be set on an HKWorkout object to represent the SWOLF Score during the whole workout.",
+   "valueType": "NSNumber"
+  },
+  "HKSexualActivityProtectionUsed": {
+   "available": "9.0",
+   "constant": "HKMetadataKeySexualActivityProtectionUsed",
+   "doc": "Represents whether or not protection was used during sexual activity. This can be used to track either protection from STIs or protection from pregnancy.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKSwimmingLocationType": {
+   "available": "10.0",
+   "constant": "HKMetadataKeySwimmingLocationType",
+   "doc": "Represents the location type of a swimming workout.\n\nThe expected value type is an NSNumber containing an HKWorkoutSwimmingLocationType value. This key may be set on an HKWorkout object to represent the swimming location type.",
+   "valueType": "NSNumber",
+   "values": "HKWorkoutSwimmingLocationType"
+  },
+  "HKSwimmingStrokeStyle": {
+   "available": "10.0",
+   "constant": "HKMetadataKeySwimmingStrokeStyle",
+   "doc": "Represents the predominant stroke style during a lap of a swimming workout.\n\nThe expected value type is an NSNumber containing an HKSwimmingStrokeStyle value. This key may be set on an HKWorkoutEvent object with the type HKWorkoutEventTypeLap to represent the predominant style used during the lap.",
+   "valueType": "NSNumber",
+   "values": "HKSwimmingStrokeStyle"
+  },
+  "HKTimeZone": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyTimeZone",
+   "doc": "Represents the time zone that the user was in when the HKObject was created.\n\nThe expected value type is an NSString compatible with NSTimeZone's +timeZoneWithName:.",
+   "valueType": "NSString"
+  },
+  "HKUDIDeviceIdentifier": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyUDIDeviceIdentifier",
+   "doc": "Represents the device identifier portion of a device's UDI (Unique Device Identifier).\n\nThe device identifier can be used to reference the GUDID (Globally Unique Device Identifier Database). The expected value type is NSString.\n\n* Note that the use of this key is now discouraged in favor of the HKDevice class.",
+   "valueType": "NSString"
+  },
+  "HKUDIProductionIdentifier": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyUDIProductionIdentifier",
+   "doc": "Represents the production identifier portion of a device's UDI (Unique Device Identifier).\n\nWhile part of a device's UDI, the production identifier is not saved in the FDA's GUDID (Globally Unique Device Identifier Database) and its use in HealthKit is now discouraged for user privacy reasons. Apps should consider handling this independently of HealthKit APIs if needed. The expected value type is NSString.",
+   "valueType": "NSString"
+  },
+  "HKVO2MaxTestType": {
+   "available": "11.0",
+   "constant": "HKMetadataKeyVO2MaxTestType",
+   "doc": "Represents the test used to create VO2 Max Sample\n\nThe expected value type is an NSNumber containing a HKVO2MaxTestType value.",
+   "valueType": "NSNumber",
+   "values": "HKVO2MaxTestType"
+  },
+  "HKVO2MaxValue": {
+   "available": "14.3",
+   "constant": "HKMetadataKeyVO2MaxValue",
+   "doc": "Represents a VO2Max value that can be associated with, for example, Cardio Fitness Events\n\nThis key should be used to store an HKQuantity with a unit of `ml/kg·min`",
+   "valueType": "HKQuantity"
+  },
+  "HKWasTakenInLab": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyWasTakenInLab",
+   "doc": "Represents whether or not the reading was taken in a lab.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKWasUserEntered": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyWasUserEntered",
+   "doc": "Represents whether or not the reading was entered by the user.\n\nThe expected value type is an NSNumber containing a BOOL value.",
+   "valueType": "NSNumber"
+  },
+  "HKWeatherCondition": {
+   "available": "10.0",
+   "constant": "HKMetadataKeyWeatherCondition",
+   "doc": "Represents the weather condition during the sample.\n\nThe expected value type is an NSNumber containing an HKWeatherCondition value. This key may be set on an HKWorkout object to represent the overall weather condition during the workout.",
+   "valueType": "NSNumber",
+   "values": "HKWeatherCondition"
+  },
+  "HKWeatherHumidity": {
+   "available": "10.0",
+   "constant": "HKMetadataKeyWeatherHumidity",
+   "doc": "Represents the weather humidity during the sample.\n\nThe expected value type is an HKQuantity expressed in percent. This key may be set on an HKWorkout object to represent the overall humidity during the workout.",
+   "valueType": "HKQuantity"
+  },
+  "HKWeatherTemperature": {
+   "available": "10.0",
+   "constant": "HKMetadataKeyWeatherTemperature",
+   "doc": "Represents the weather temperature during the sample.\n\nThe expected value type is an HKQuantity expressed in a temperature unit. This key may be set on an HKWorkout object to represent the overall temperature during the workout.",
+   "valueType": "HKQuantity"
+  },
+  "HKWorkoutBrandName": {
+   "available": "8.0",
+   "constant": "HKMetadataKeyWorkoutBrandName",
+   "doc": "Represents the brand name of a particular workout.\n\nThe expected value type is NSString.",
+   "valueType": "NSString"
+  }
+ },
+ "sdk": {
+  "version": "27.0"
+ },
+ "types": {
+  "HKActivitySummaryTypeIdentifier": {
+   "available": "9.3",
+   "factory": "activitySummaryType",
+   "kind": "activitySummary"
+  },
+  "HKCategoryTypeIdentifierAbdominalCramps": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierAcne": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierAppetiteChanges": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueAppetiteChanges",
+   "values": "HKCategoryValueAppetiteChanges"
+  },
+  "HKCategoryTypeIdentifierAppleStandHour": {
+   "available": "9.0",
+   "kind": "category",
+   "note": "HKCategoryValueAppleStandHour",
+   "values": "HKCategoryValueAppleStandHour"
+  },
+  "HKCategoryTypeIdentifierAppleWalkingSteadinessEvent": {
+   "available": "15.0",
+   "kind": "category",
+   "note": "HKCategoryValueAppleWalkingSteadinessEvent",
+   "values": "HKCategoryValueAppleWalkingSteadinessEvent"
+  },
+  "HKCategoryTypeIdentifierAudioExposureEvent": {
+   "available": "14.0",
+   "constant": "HKCategoryTypeIdentifierEnvironmentalAudioExposureEvent",
+   "kind": "category",
+   "note": "HKCategoryValueEnvironmentalAudioExposureEvent",
+   "values": "HKCategoryValueEnvironmentalAudioExposureEvent"
+  },
+  "HKCategoryTypeIdentifierBladderIncontinence": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierBleedingAfterMenopause": {
+   "available": "27.0",
+   "kind": "category",
+   "note": "HKCategoryValueVaginalBleeding",
+   "values": "HKCategoryValueVaginalBleeding"
+  },
+  "HKCategoryTypeIdentifierBleedingAfterPregnancy": {
+   "available": "18.0",
+   "kind": "category",
+   "note": "HKCategoryValueVaginalBleeding",
+   "values": "HKCategoryValueVaginalBleeding"
+  },
+  "HKCategoryTypeIdentifierBleedingDuringPregnancy": {
+   "available": "18.0",
+   "kind": "category",
+   "note": "HKCategoryValueVaginalBleeding",
+   "values": "HKCategoryValueVaginalBleeding"
+  },
+  "HKCategoryTypeIdentifierBloating": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierBreastPain": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierCervicalMucusQuality": {
+   "available": "9.0",
+   "kind": "category",
+   "note": "HKCategoryValueCervicalMucusQuality",
+   "values": "HKCategoryValueCervicalMucusQuality"
+  },
+  "HKCategoryTypeIdentifierChestTightnessOrPain": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierChills": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierConstipation": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierContraceptive": {
+   "available": "14.3",
+   "kind": "category",
+   "note": "HKCategoryValueContraceptive",
+   "values": "HKCategoryValueContraceptive"
+  },
+  "HKCategoryTypeIdentifierCoughing": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierDiarrhea": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierDizziness": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierDrySkin": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierFainting": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierFatigue": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierFever": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierGeneralizedBodyAche": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierHairLoss": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierHandwashingEvent": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierHeadache": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierHeadphoneAudioExposureEvent": {
+   "available": "14.2",
+   "kind": "category",
+   "note": "HKCategoryValueHeadphoneAudioExposureEvent",
+   "values": "HKCategoryValueHeadphoneAudioExposureEvent"
+  },
+  "HKCategoryTypeIdentifierHeartburn": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierHighHeartRateEvent": {
+   "available": "12.2",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierHotFlashes": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierHypertensionEvent": {
+   "available": "26.2",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierInfrequentMenstrualCycles": {
+   "available": "16.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierIntermenstrualBleeding": {
+   "available": "9.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierIrregularHeartRhythmEvent": {
+   "available": "12.2",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierIrregularMenstrualCycles": {
+   "available": "16.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierLactation": {
+   "available": "14.3",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierLossOfSmell": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierLossOfTaste": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierLowCardioFitnessEvent": {
+   "available": "14.3",
+   "kind": "category",
+   "note": "HKCategoryValueLowCardioFitnessEvent",
+   "values": "HKCategoryValueLowCardioFitnessEvent"
+  },
+  "HKCategoryTypeIdentifierLowHeartRateEvent": {
+   "available": "12.2",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierLowerBackPain": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierMemoryLapse": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierMenopausalState": {
+   "available": "27.0",
+   "kind": "category",
+   "note": "HKCategoryValueMenopausalState",
+   "values": "HKCategoryValueMenopausalState"
+  },
+  "HKCategoryTypeIdentifierMenstrualFlow": {
+   "available": "9.0",
+   "kind": "category",
+   "note": "HKCategoryValueVaginalBleeding",
+   "values": "HKCategoryValueVaginalBleeding"
+  },
+  "HKCategoryTypeIdentifierMindfulSession": {
+   "available": "10.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierMoodChanges": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValuePresence",
+   "values": "HKCategoryValuePresence"
+  },
+  "HKCategoryTypeIdentifierNausea": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierNightSweats": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierOvulationTestResult": {
+   "available": "9.0",
+   "kind": "category",
+   "note": "HKCategoryValueOvulationTestResult",
+   "values": "HKCategoryValueOvulationTestResult"
+  },
+  "HKCategoryTypeIdentifierPelvicPain": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierPersistentIntermenstrualBleeding": {
+   "available": "16.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierPregnancy": {
+   "available": "14.3",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierPregnancyTestResult": {
+   "available": "15.0",
+   "kind": "category",
+   "note": "HKCategoryValuePregnancyTestResult",
+   "values": "HKCategoryValuePregnancyTestResult"
+  },
+  "HKCategoryTypeIdentifierProgesteroneTestResult": {
+   "available": "15.0",
+   "kind": "category",
+   "note": "HKCategoryValueProgesteroneTestResult",
+   "values": "HKCategoryValueProgesteroneTestResult"
+  },
+  "HKCategoryTypeIdentifierProlongedMenstrualPeriods": {
+   "available": "16.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierRapidPoundingOrFlutteringHeartbeat": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierRunnyNose": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierSexualActivity": {
+   "available": "9.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierShortnessOfBreath": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierSinusCongestion": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierSkippedHeartbeat": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierSleepAnalysis": {
+   "available": "8.0",
+   "kind": "category",
+   "note": "HKCategoryValueSleepAnalysis",
+   "values": "HKCategoryValueSleepAnalysis"
+  },
+  "HKCategoryTypeIdentifierSleepApneaEvent": {
+   "available": "18.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierSleepChanges": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValuePresence",
+   "values": "HKCategoryValuePresence"
+  },
+  "HKCategoryTypeIdentifierSoreThroat": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierToothbrushingEvent": {
+   "available": "13.0",
+   "kind": "category",
+   "note": "HKCategoryValue",
+   "values": "HKCategoryValue"
+  },
+  "HKCategoryTypeIdentifierVaginalDryness": {
+   "available": "14.0",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierVomiting": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCategoryTypeIdentifierWheezing": {
+   "available": "13.6",
+   "kind": "category",
+   "note": "HKCategoryValueSeverity",
+   "values": "HKCategoryValueSeverity"
+  },
+  "HKCharacteristicTypeIdentifierActivityMoveMode": {
+   "available": "14.0",
+   "kind": "characteristic",
+   "note": "HKActivityMoveModeObject",
+   "values": "HKActivityMoveMode"
+  },
+  "HKCharacteristicTypeIdentifierBiologicalSex": {
+   "available": "8.0",
+   "kind": "characteristic",
+   "note": "HKBiologicalSexObject",
+   "values": "HKBiologicalSex"
+  },
+  "HKCharacteristicTypeIdentifierBloodType": {
+   "available": "8.0",
+   "kind": "characteristic",
+   "note": "HKBloodTypeObject",
+   "values": "HKBloodType"
+  },
+  "HKCharacteristicTypeIdentifierDateOfBirth": {
+   "available": "8.0",
+   "kind": "characteristic",
+   "note": "NSDateComponents"
+  },
+  "HKCharacteristicTypeIdentifierFitzpatrickSkinType": {
+   "available": "9.0",
+   "kind": "characteristic",
+   "note": "HKFitzpatrickSkinTypeObject",
+   "values": "HKFitzpatrickSkinType"
+  },
+  "HKCharacteristicTypeIdentifierWheelchairUse": {
+   "available": "10.0",
+   "kind": "characteristic",
+   "note": "HKWheelchairUseObject",
+   "values": "HKWheelchairUse"
+  },
+  "HKClinicalTypeIdentifierAllergyRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of allergies or intolerances.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierClinicalNoteRecord": {
+   "available": "16.4",
+   "doc": "A type identifier for records that represent clinical notes.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierConditionRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of a condition, problem, or diagnosis.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierCoverageRecord": {
+   "available": "14.0",
+   "doc": "A type identifier for records containing information about the user’s insurance coverage.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierImmunizationRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of vaccine administration.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierLabResultRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of lab results.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierMedicationRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of medication prescription, intake, or administration.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierProcedureRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of clinical procedures.",
+   "kind": "clinicalRecord"
+  },
+  "HKClinicalTypeIdentifierVitalSignRecord": {
+   "available": "12.0",
+   "doc": "A type identifier for records of vital signs.",
+   "kind": "clinicalRecord"
+  },
+  "HKCorrelationTypeIdentifierBloodPressure": {
+   "available": "8.0",
+   "kind": "correlation"
+  },
+  "HKCorrelationTypeIdentifierFood": {
+   "available": "8.0",
+   "kind": "correlation"
+  },
+  "HKDataTypeIdentifierAudiogram": {
+   "available": "13.0",
+   "factory": "audiogramSampleType",
+   "kind": "audiogram"
+  },
+  "HKDataTypeIdentifierElectrocardiogram": {
+   "available": "14.0",
+   "factory": "electrocardiogramType",
+   "kind": "electrocardiogram"
+  },
+  "HKDataTypeIdentifierHeartbeatSeries": {
+   "available": "13.0",
+   "kind": "heartbeatSeries"
+  },
+  "HKDataTypeStateOfMind": {
+   "available": "18.0",
+   "constant": "HKDataTypeIdentifierStateOfMind",
+   "doc": "A state of mind type that records the user's mental health",
+   "kind": "stateOfMind"
+  },
+  "HKDataTypeUserAnnotatedMedicationConcept": {
+   "available": "26.0",
+   "constant": "HKDataTypeIdentifierUserAnnotatedMedicationConcept",
+   "doc": "The user annotated medication type that represents a medication concept.",
+   "kind": "userAnnotatedMedication"
+  },
+  "HKDocumentTypeIdentifierCDA": {
+   "available": "10.0",
+   "kind": "cdaDocument"
+  },
+  "HKMedicationDoseEventTypeIdentifierMedicationDoseEvent": {
+   "available": "26.0",
+   "doc": "A medication dose event type that represents a single dose administration for a medication.",
+   "kind": "medicationDoseEvent"
+  },
+  "HKQuantityTypeIdentifierActiveEnergyBurned": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "kcal, Cumulative"
+  },
+  "HKQuantityTypeIdentifierAppleExerciseTime": {
+   "aggregation": "cumulative",
+   "available": "9.3",
+   "kind": "quantity",
+   "note": "min, Cumulative"
+  },
+  "HKQuantityTypeIdentifierAppleMoveTime": {
+   "aggregation": "cumulative",
+   "available": "14.5",
+   "kind": "quantity",
+   "note": "min, Cumulative"
+  },
+  "HKQuantityTypeIdentifierAppleSleepingBreathingDisturbances": {
+   "aggregation": "discreteArithmetic",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "count, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierAppleSleepingWristTemperature": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "degC, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierAppleStandTime": {
+   "aggregation": "cumulative",
+   "available": "13.0",
+   "kind": "quantity",
+   "note": "min, Cumulative"
+  },
+  "HKQuantityTypeIdentifierAppleWalkingSteadiness": {
+   "aggregation": "discreteArithmetic",
+   "available": "15.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierAtrialFibrillationBurden": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierBasalBodyTemperature": {
+   "aggregation": "discreteArithmetic",
+   "available": "9.0",
+   "kind": "quantity",
+   "note": "degC, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBasalEnergyBurned": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "kcal, Cumulative"
+  },
+  "HKQuantityTypeIdentifierBloodAlcoholContent": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBloodGlucose": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "mg/dL, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBloodPressureDiastolic": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "mmHg, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBloodPressureSystolic": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "mmHg, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBodyFatPercentage": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBodyMass": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "kg, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBodyMassIndex": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierBodyTemperature": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "degC, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierCrossCountrySkiingSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierCyclingCadence": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "17.0",
+   "kind": "quantity",
+   "note": "count/min, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierCyclingFunctionalThresholdPower": {
+   "aggregation": "discreteArithmetic",
+   "available": "17.0",
+   "kind": "quantity",
+   "note": "W, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierCyclingPower": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "17.0",
+   "kind": "quantity",
+   "note": "W, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierCyclingSpeed": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "17.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierDietaryBiotin": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryCaffeine": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryCalcium": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryCarbohydrates": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryChloride": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryCholesterol": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryChromium": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryCopper": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryEnergyConsumed": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "kcal, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryFatMonounsaturated": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryFatPolyunsaturated": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryFatSaturated": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryFatTotal": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryFiber": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryFolate": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryIodine": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryIron": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryMagnesium": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryManganese": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryMolybdenum": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryNiacin": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryPantothenicAcid": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryPhosphorus": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryPotassium": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryProtein": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryRiboflavin": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietarySelenium": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietarySodium": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietarySugar": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryThiamin": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminA": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminB12": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminB6": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminC": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminD": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminE": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryVitaminK": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryWater": {
+   "aggregation": "cumulative",
+   "available": "9.0",
+   "kind": "quantity",
+   "note": "mL, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDietaryZinc": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "g, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceCrossCountrySkiing": {
+   "aggregation": "cumulative",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceCycling": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceDownhillSnowSports": {
+   "aggregation": "cumulative",
+   "available": "11.2",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistancePaddleSports": {
+   "aggregation": "cumulative",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceRowing": {
+   "aggregation": "cumulative",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceSkatingSports": {
+   "aggregation": "cumulative",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceSwimming": {
+   "aggregation": "cumulative",
+   "available": "10.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceWalkingRunning": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierDistanceWheelchair": {
+   "aggregation": "cumulative",
+   "available": "10.0",
+   "kind": "quantity",
+   "note": "m, Cumulative"
+  },
+  "HKQuantityTypeIdentifierElectrodermalActivity": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "S, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierEnvironmentalAudioExposure": {
+   "aggregation": "discreteEquivalentContinuousLevel",
+   "available": "13.0",
+   "kind": "quantity",
+   "note": "dBASPL, Discrete (Equivalent Continuous Level)"
+  },
+  "HKQuantityTypeIdentifierEnvironmentalSoundReduction": {
+   "aggregation": "discreteEquivalentContinuousLevel",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "dBASPL, Discrete (Equivalent Continuous Level)"
+  },
+  "HKQuantityTypeIdentifierEstimatedWorkoutEffortScore": {
+   "aggregation": "discreteArithmetic",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "appleEffortScore, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierFlightsClimbed": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierForcedExpiratoryVolume1": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "L, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierForcedVitalCapacity": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "L, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierHeadphoneAudioExposure": {
+   "aggregation": "discreteEquivalentContinuousLevel",
+   "available": "13.0",
+   "kind": "quantity",
+   "note": "dBASPL, Discrete (Equivalent Continuous Level)"
+  },
+  "HKQuantityTypeIdentifierHeartRate": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count/s, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierHeartRateRecoveryOneMinute": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "count/min, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierHeartRateVariabilitySDNN": {
+   "aggregation": "discreteArithmetic",
+   "available": "11.0",
+   "kind": "quantity",
+   "note": "ms, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierHeight": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "m, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierInhalerUsage": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierInsulinDelivery": {
+   "aggregation": "cumulative",
+   "available": "11.0",
+   "kind": "quantity",
+   "note": "IU, Cumulative"
+  },
+  "HKQuantityTypeIdentifierLeanBodyMass": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "kg, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierNikeFuel": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierNumberOfAlcoholicBeverages": {
+   "aggregation": "cumulative",
+   "available": "15.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierNumberOfTimesFallen": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierOxygenSaturation": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierPaddleSportsSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierPeakExpiratoryFlowRate": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "L/min, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierPeripheralPerfusionIndex": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierPhysicalEffort": {
+   "aggregation": "discreteArithmetic",
+   "available": "17.0",
+   "kind": "quantity",
+   "note": "kcal/(kg*hr), Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierPushCount": {
+   "aggregation": "cumulative",
+   "available": "10.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierRespiratoryRate": {
+   "aggregation": "discreteArithmetic",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierRestingHeartRate": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "11.0",
+   "kind": "quantity",
+   "note": "count/min, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierRowingSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierRunningGroundContactTime": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "ms, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierRunningPower": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "W, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierRunningSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierRunningStrideLength": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "m, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierRunningVerticalOscillation": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "cm, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierSixMinuteWalkTestDistance": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "m, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierStairAscentSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierStairDescentSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierStepCount": {
+   "aggregation": "cumulative",
+   "available": "8.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierSwimmingStrokeCount": {
+   "aggregation": "cumulative",
+   "available": "10.0",
+   "kind": "quantity",
+   "note": "count, Cumulative"
+  },
+  "HKQuantityTypeIdentifierTimeInDaylight": {
+   "aggregation": "cumulative",
+   "available": "17.0",
+   "kind": "quantity",
+   "note": "min, Cumulative"
+  },
+  "HKQuantityTypeIdentifierUVExposure": {
+   "aggregation": "discreteArithmetic",
+   "available": "9.0",
+   "kind": "quantity",
+   "note": ", Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierUnderwaterDepth": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "m, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierVO2Max": {
+   "aggregation": "discreteArithmetic",
+   "available": "11.0",
+   "kind": "quantity",
+   "note": "ml/(kg*min), Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWaistCircumference": {
+   "aggregation": "discreteArithmetic",
+   "available": "11.0",
+   "kind": "quantity",
+   "note": "m, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWalkingAsymmetryPercentage": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWalkingDoubleSupportPercentage": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "%, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWalkingHeartRateAverage": {
+   "aggregation": "discreteTemporallyWeighted",
+   "available": "11.0",
+   "kind": "quantity",
+   "note": "count/min, Discrete (Temporally Weighted)"
+  },
+  "HKQuantityTypeIdentifierWalkingSpeed": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "m/s, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWalkingStepLength": {
+   "aggregation": "discreteArithmetic",
+   "available": "14.0",
+   "kind": "quantity",
+   "note": "m, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWaterTemperature": {
+   "aggregation": "discreteArithmetic",
+   "available": "16.0",
+   "kind": "quantity",
+   "note": "degC, Discrete (Arithmetic)"
+  },
+  "HKQuantityTypeIdentifierWorkoutEffortScore": {
+   "aggregation": "discreteArithmetic",
+   "available": "18.0",
+   "kind": "quantity",
+   "note": "appleEffortScore, Discrete (Arithmetic)"
+  },
+  "HKScoredAssessmentTypeIdentifierGAD7": {
+   "available": "18.0",
+   "kind": "scoredAssessment"
+  },
+  "HKScoredAssessmentTypeIdentifierPHQ9": {
+   "available": "18.0",
+   "kind": "scoredAssessment"
+  },
+  "HKVisionPrescriptionTypeIdentifier": {
+   "available": "16.0",
+   "kind": "visionPrescription"
+  },
+  "HKWorkoutRouteTypeIdentifier": {
+   "available": "11.0",
+   "kind": "workoutRoute"
+  },
+  "HKWorkoutTypeIdentifier": {
+   "available": "8.0",
+   "kind": "workout"
+  }
+ }
+}

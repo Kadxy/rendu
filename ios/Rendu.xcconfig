@@ -1,0 +1,5 @@
+// Shared build settings. Machine-specific values (signing team, bundle ID)
+// live in Local.xcconfig, which is not committed — copy
+// Local.xcconfig.example.
+RENDU_BUNDLE_ID = com.example.rendu
+#include? "Local.xcconfig"

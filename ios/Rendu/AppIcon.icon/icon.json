@@ -1,0 +1,68 @@
+{
+  "fill": {
+    "automatic-gradient": "extended-gray:1.00000,1.00000"
+  },
+  "groups": [
+    {
+      "layers": [
+        {
+          "image-name": "Bowl.svg",
+          "name": "Bowl",
+          "glass": true,
+          "fill": {
+            "linear-gradient": [
+              "srgb:0.66667,0.34118,1.00000,1.00000",
+              "srgb:0.33333,0.32157,0.95686,1.00000"
+            ],
+            "orientation": {
+              "start": {
+                "x": 0.5,
+                "y": 0
+              },
+              "stop": {
+                "x": 0.5,
+                "y": 1
+              }
+            }
+          }
+        },
+        {
+          "image-name": "Stem.svg",
+          "name": "Stem",
+          "glass": true,
+          "fill": {
+            "linear-gradient": [
+              "srgb:1.00000,0.17647,0.42353,1.00000",
+              "srgb:1.00000,0.47059,0.40000,1.00000"
+            ],
+            "orientation": {
+              "start": {
+                "x": 0.5,
+                "y": 0
+              },
+              "stop": {
+                "x": 0.5,
+                "y": 1
+              }
+            }
+          }
+        }
+      ],
+      "shadow": {
+        "kind": "neutral",
+        "opacity": 0.5
+      },
+      "translucency": {
+        "enabled": true,
+        "value": 0.2
+      },
+      "specular": true
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}

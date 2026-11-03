@@ -1,0 +1,50 @@
+# Version updates: one grouped PR per ecosystem (per directory for Go), weekly.
+# Security updates are separate (Settings → Code security → Dependabot security
+# updates) and ignore the schedule and cooldown.
+version: 2
+
+updates:
+  # Server + CLI, and the golangci-lint pinned in tools/go.mod.
+  - package-ecosystem: gomod
+    directories: ["/", "/tools"]
+    schedule:
+      interval: weekly
+    # Let a release sit a week before proposing it (a compromised release is
+    # usually caught and yanked within days).
+    cooldown:
+      default-days: 7
+    groups:
+      go:
+        patterns: ["*"]
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      actions:
+        patterns: ["*"]
+
+  # Dockerfile: golang build image, distroless runtime.
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      docker:
+        patterns: ["*"]
+
+  # deploy/docker-compose.yml: caddy.
+  - package-ecosystem: docker-compose
+    directory: /deploy
+    schedule:
+      interval: weekly
+    cooldown:
+      default-days: 7
+    groups:
+      compose:
+        patterns: ["*"]

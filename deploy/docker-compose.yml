@@ -1,0 +1,43 @@
+# Deploy (from this directory): docker compose up -d --build
+#   → rendu listens on 127.0.0.1:${RENDU_PORT:-8787}; point your HTTPS reverse
+#     proxy (nginx, Cloudflare Tunnel, …) at it. No proxy? Replace the domain in
+#     Caddyfile and run: docker compose --profile caddy up -d --build
+#   Nothing secret to configure.
+#
+# Pair the iPhone: enter the server address in the app, then run the command
+#   it shows: docker compose exec rendu rendu-server pair 123456
+name: rendu
+
+services:
+  rendu:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    image: rendu-server
+    restart: unless-stopped
+    volumes:
+      - rendu-data:/data
+    # Localhost only: the reverse proxy (or Caddy, over the compose network)
+    # is the only way in.
+    ports:
+      - "127.0.0.1:${RENDU_PORT:-8787}:8787"
+
+  caddy:
+    image: caddy:2
+    profiles: [caddy]
+    restart: unless-stopped
+    depends_on:
+      - rendu
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+
+volumes:
+  rendu-data:
+  caddy-data:
+  caddy-config:

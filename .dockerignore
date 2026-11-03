@@ -1,0 +1,6 @@
+.git
+ios
+docs
+deploy
+*.db
+*.db-*

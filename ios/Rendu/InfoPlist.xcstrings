@@ -1,0 +1,86 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "CFBundleDisplayName": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rendu"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督"
+          }
+        }
+      }
+    },
+    "NSFaceIDUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rendu requires Face ID to show the server settings or to pair."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督在显示服务器设置或配对前需要验证面容 ID。"
+          }
+        }
+      }
+    },
+    "NSHealthShareUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rendu reads your Apple Health data and sends it only to the server you pair with."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督会读取你的 Apple 健康数据，并仅发送至与你配对的服务器。"
+          }
+        }
+      }
+    },
+    "NSHealthUpdateUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rendu saves entries submitted to your server, such as meals and body measurements, to Apple Health."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任督会将提交到服务器的记录（如饮食、身体测量数据）存入 Apple 健康。"
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Rendu connects to a server on your local network during development."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开发调试时，任督会连接局域网内的服务器。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

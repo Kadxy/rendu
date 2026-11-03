@@ -1,0 +1,6 @@
+// Copy to Local.xcconfig and fill in your Apple developer team ID
+// (Xcode → Settings → Accounts, or the OU of your "Apple Development" certificate).
+DEVELOPMENT_TEAM = XXXXXXXXXX
+
+// A bundle ID of your own: with a free Apple ID it must not be taken by anyone else.
+RENDU_BUNDLE_ID = com.yourname.rendu

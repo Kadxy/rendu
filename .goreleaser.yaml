@@ -1,0 +1,37 @@
+# Release the rendu CLI: git tag v0.1.0 && git push origin v0.1.0
+# (.github/workflows/release.yml runs this). The server ships as a Docker
+# image built from source, see deploy/.
+version: 2
+
+before:
+  hooks:
+    - go test ./...
+
+builds:
+  - id: rendu
+    main: ./cmd/rendu
+    binary: rendu
+    env:
+      - CGO_ENABLED=0
+    flags:
+      - -trimpath
+    ldflags:
+      - -s -w -X github.com/Kadxy/rendu/internal/cli.Version={{.Version}}
+    goos: [darwin, linux, windows]
+    goarch: [amd64, arm64]
+
+archives:
+  # No version in the name, so releases/latest/download/<name> always works
+  # (install.sh relies on it).
+  - name_template: "rendu_{{ .Os }}_{{ .Arch }}"
+    formats: [tar.gz]
+    format_overrides:
+      - goos: windows
+        formats: [zip]
+    files:
+      - LICENSE
+      - README.md
+
+checksum:
+  name_template: checksums.txt
+

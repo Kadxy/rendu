@@ -1,0 +1,45 @@
+# Go lint and format: make lint / make fmt (golangci-lint, pinned in tools/go.mod).
+version: "2"
+
+run:
+  timeout: 5m
+
+linters:
+  default: standard # errcheck, govet, ineffassign, staticcheck, unused
+  enable:
+    - bodyclose
+    - copyloopvar
+    - errorlint
+    - gocritic
+    - misspell
+    - nilerr
+    - rowserrcheck
+    - sqlclosecheck
+    - unconvert
+    - usestdlibvars
+  settings:
+    errcheck:
+      exclude-functions:
+        # Best-effort closes and rollbacks after the real error is handled.
+        - (*database/sql.Rows).Close
+        - (*database/sql.Tx).Rollback
+        - (io.Closer).Close
+    gocritic:
+      disabled-checks:
+        - ifElseChain
+  exclusions:
+    presets:
+      - std-error-handling
+    rules:
+      # Test servers writing canned responses.
+      - path: _test\.go
+        linters: [errcheck]
+
+formatters:
+  enable:
+    - gofmt
+    - goimports
+  settings:
+    goimports:
+      local-prefixes:
+        - github.com/Kadxy/rendu

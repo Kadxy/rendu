@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Rendu connects to a server on your local network during development.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Rendu reads your Apple Health data and sends it only to the server you pair with.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Rendu saves entries submitted to your server, such as meals and body measurements, to Apple Health.</string>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER).refresh</string>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER).processing</string>
+		<string>$(PRODUCT_BUNDLE_IDENTIFIER).upload.*</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+	</array>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Rendu requires Face ID to show the server settings or to pair.</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
