@@ -104,7 +104,9 @@ xcodegen generate
 open Rendu.xcodeproj                         # 选择你的 iPhone，然后 Run
 ```
 
-用免费 Apple ID 签名的 App 有效期 7 天。到期前一天任督会提醒你，用 Xcode 再 Run 一次就行，数据会保留。
+也可以不打开 Xcode：iPhone 用线连着或在同一 Wi-Fi 下（需先在 Xcode 里配对过）运行 `make ios-install`，会编译并安装。
+
+用免费 Apple ID 签名的 App 有效期 7 天。到期前一天任督会提醒你，再运行一次 `make ios-install`（或在 Xcode 里 Run）就行，数据会保留。
 
 ### 3. 配对 iPhone 和服务器
 

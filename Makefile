@@ -10,7 +10,11 @@ SWIFT_FILES = $(shell find ios/Rendu ios/RenduTests -name '*.swift' \
 	! -name DisplayNames.swift ! -name TypeCatalogData.swift ! -name HealthUIStrings.swift)
 SWIFT_FLAGS := --configuration ios/.swift-format --parallel
 
-.PHONY: icon fmt lint test schema
+.PHONY: icon fmt lint test schema ios-install
+
+# Build and install the app on an iPhone plugged in or on the same Wi-Fi (also re-signs it).
+ios-install:
+	@sh ios/scripts/install.sh
 
 fmt:
 	$(GOLANGCI) fmt

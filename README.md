@@ -104,7 +104,9 @@ xcodegen generate
 open Rendu.xcodeproj                         # choose your iPhone, then Run
 ```
 
-With a free Apple ID the app is signed for 7 days. Rendu reminds you the day before it expires. Run it again from Xcode and your data is kept.
+Or skip Xcode's window: with the iPhone plugged in or on the same Wi-Fi (once paired in Xcode), `make ios-install` builds the app and installs it.
+
+With a free Apple ID the app is signed for 7 days. Rendu reminds you the day before it expires. Run `make ios-install` again (or Run from Xcode) and your data is kept.
 
 ### 3. Pair the iPhone with the server
 

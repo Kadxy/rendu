@@ -14,7 +14,8 @@ enum Demo {
         FileManager.default.temporaryDirectory.appendingPathComponent("RenduDemo", isDirectory: true)
     }
 
-    nonisolated static let defaults = UserDefaults(suiteName: "rendu.demo")!
+    /// UserDefaults is thread-safe, it just isn't marked Sendable.
+    nonisolated(unsafe) static let defaults = UserDefaults(suiteName: "rendu.demo")!
 
     /// The record `-rendu-demo-open write` opens: the lunch, corrected.
     nonisolated static let updateID = "5B0E8C21-4D7A-4F3B-9E61-0A2C7D9F4B18"
