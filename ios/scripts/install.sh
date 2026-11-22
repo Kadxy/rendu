@@ -32,7 +32,8 @@ if [ -z "${DEVICE:-}" ]; then
 	# "disconnected" until something connects to it ("unavailable" = not reachable).
 	connected=$(python3 -I -c '
 import json, sys
-phones = [d for d in json.load(open(sys.argv[1]))["result"]["devices"] if d["hardwareProperties"].get("platform") == "iOS"]
+phones = [d for d in json.load(open(sys.argv[1]))["result"]["devices"]
+          if d["hardwareProperties"].get("platform") == "iOS" and d["hardwareProperties"].get("reality") == "physical"]
 for state in ("connected", "disconnected"):
     found = [d for d in phones if d["connectionProperties"].get("tunnelState") == state]
     for d in found:
@@ -119,6 +120,21 @@ build_phase() {
 install_percent() {
 	grep -oE '[0-9]{1,3}%' "$1" | tail -n 1 | sed 's/^/: /' || true
 }
+
+# Xcode reuses its cached provisioning profile until that expires, so
+# reinstalling the day before would still leave a day: drop this app's profile
+# once it has less than 6 of its 7 days left and the build fetches a new one.
+bundle=$(sed -n 's/^[[:space:]]*RENDU_BUNDLE_ID[[:space:]]*=[[:space:]]*//p' Local.xcconfig | tr -d '[:space:]')
+for f in "$HOME/Library/Developer/Xcode/UserData/Provisioning Profiles"/*.mobileprovision \
+	"$HOME/Library/MobileDevice/Provisioning Profiles"/*.mobileprovision; do
+	[ -f "$f" ] || continue
+	profile=$(security cms -D -i "$f" 2>/dev/null) || continue
+	appid=$(printf '%s' "$profile" | plutil -extract Entitlements.application-identifier raw -o - - 2>/dev/null) || continue
+	case $appid in *."$bundle") ;; *) continue ;; esac
+	expires=$(printf '%s' "$profile" | plutil -extract ExpirationDate raw -o - - 2>/dev/null) || continue
+	seconds=$(date -j -u -f '%Y-%m-%dT%H:%M:%SZ' "$expires" +%s 2>/dev/null) || continue
+	[ $((seconds - $(date +%s))) -ge $((6 * 86400)) ] || rm -f "$f"
+done
 
 mkdir -p "$DERIVED"
 # Over Wi-Fi the tunnel only comes up on demand: open it before building.
